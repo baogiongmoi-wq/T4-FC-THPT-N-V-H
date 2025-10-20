@@ -162,9 +162,9 @@
             Dưới sự dẫn dắt của <strong>Huấn luyện viên Trần Văn Anh Khoa</strong>, các cầu thủ trẻ đã không ngừng rèn luyện, chiến đấu với trái tim rực lửa và niềm tin chiến thắng.
         </p>
         <p>
-            Trên sân <strong>SÂN BÓNG - KHU LIÊN HỢP THỂ THAO CHÍ HÙNG</strong>, nơi họ gọi là “ngôi nhà thứ hai”, tiếng hô vang <strong>“THE FOURCE!”</strong> luôn là nguồn động lực mạnh mẽ, kết nối tất cả thành một tập thể bất khả chiến bại.
+            Trên sân <strong>SÂN BÓNG - KHU LIÊN HỢP THỂ THAO CHÍ HÙNG</strong>, nơi mà chúng tôi gọi là “ngôi nhà thứ hai”, tiếng hô vang <strong>“THE FOURCE!”</strong> luôn là nguồn động lực mạnh mẽ, kết nối tất cả thành một tập thể bất khả chiến bại.
         </p>
-        <p><strong>💪 T4-FC – Chiến đấu hết mình, vì danh dự của đội, vì đam mê, vì tinh thần Nguyễn Văn Hai bất diệt!</strong></p>
+        <p><strong>💪 T4-FC – Chiến đấu hết mình, vì danh dự, vì đam mê, vì tinh thần Nguyễn Văn Hai bất diệt!</strong></p>
     </section>
 
     <section>
@@ -189,25 +189,47 @@
                 <th>Vị trí</th>
                 <th>Ghi chú</th>
             </tr>
-            <tr><td>1</td><td>Anh Oblak</td><td>1</td><td>Thủ môn</td><td>Bức tường thép nơi khung gỗ</td></tr>
-            <tr><td>2</td><td>Daniel Bảo</td><td>2</td><td>Hậu vệ trái</td><td>Vững chắc, cản phá hàng công</td></tr>
-            <tr><td>3</td><td>Thịnh Mbappe</td><td>4</td><td>Trung vệ</td><td>Nhanh nhẹn, đọc tình huống tốt</td></tr>
-            <tr><td>4</td><td>Ngọc Tài</td><td>7</td><td>Tiền đạo</td><td>Mũi nhọn tấn công, săn bàn chủ lực</td></tr>
-            <tr><td>5</td><td>Triều Liều</td><td>8</td><td>Tiền vệ trung tâm</td><td>Nhạc trưởng điều tiết trận đấu</td></tr>
-            <tr><td>6</td><td>Hào Milk</td><td>9</td><td>Tiền đạo</td><td>Tốc độ và kỹ thuật tinh tế</td></tr>
-            <tr><td>7</td><td>Qui Musiala</td><td>10</td><td>Tiền vệ tấn công</td><td>Khéo léo, sáng tạo</td></tr>
-            <tr><td>8</td><td>Hiền Gullit</td><td>11</td><td>Tiền vệ phòng ngự</td><td>Cân bằng tuyến giữa</td></tr>
-            <tr><td>9</td><td>Toàn Rivaldo</td><td>17</td><td>Hậu vệ trái</td><td>Tốc độ và bền bỉ</td></tr>
-            <tr><td>10</td><td>Khoa Kroos</td><td>18</td><td>Tiền vệ trung tâm</td><td>Lên công, về thủ nhịp nhàng</td></tr>
-            <tr><td>11</td><td>Lamine GiaHuy</td><td>19</td><td>Tiền vệ cánh trái</td><td>Khả năng bứt tốc và tạt bóng chuẩn xác</td></tr>
-            <tr><td>12</td><td>Quí Gea</td><td>20</td><td>Thủ môn</td><td>Phòng thủ chắc chắn, con mắt của đội</td></tr>
-            <tr><td>13</td><td>Nhân Pirlo</td><td>21</td><td>Tiền vệ trung tâm</td><td>Bộ não chiến thuật của đội</td></tr>
-            <tr><td>14</td><td>Trường Tân</td><td>22</td><td>Tiền đạo cánh phải</td><td>Mũi khoan tốc độ bên hành lang phải</td></tr>
-            <tr><td>15</td><td>Phong Kumalala</td><td>24</td><td>Tiền đạo cánh trái</td><td>Kỹ thuật và tốc độ bùng nổ</td></tr>
-            <tr><td>16</td><td>Kha Kaka</td><td>29</td><td>Tiền vệ tấn công</td><td>Linh hồn sáng tạo nơi tuyến giữa</td></tr>
-            <tr><td>17</td><td>Kha Boiz</td><td>30</td><td>Tiền vệ</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
+            <tr><td>1</td><td>Anh Oblak</td><td>1</td><td>GK</td><td>Bức tường thép nơi khung gỗ</td></tr>
+            <tr><td>2</td><td>Daniel Bảo</td><td>2</td><td>LB</td><td>Vững chắc, cản phá hàng công</td></tr>
+            <tr><td>3</td><td>Thịnh Mbappe</td><td>4</td><td>RW</td><td>Nhanh nhẹn, đọc tình huống tốt</td></tr>
+            <tr><td>4</td><td>Ngọc Tài</td><td>7</td><td>ST</td><td>Mũi nhọn tấn công, săn bàn chủ lực</td></tr>
+            <tr><td>5</td><td>Triều Liều</td><td>8</td><td>CDM</td><td>Nhạc trưởng điều tiết trận đấu</td></tr>
+            <tr><td>6</td><td>Hào Milk</td><td>9</td><td>LW</td><td>Tốc độ và kỹ thuật tinh tế</td></tr>
+            <tr><td>7</td><td>Qui Musiala</td><td>10</td><td>AM</td><td>Khéo léo, sáng tạo</td></tr>
+            <tr><td>8</td><td>Hiền Gullit</td><td>11</td><td>AM/FW</td><td>Cân bằng tuyến giữa</td></tr>
+            <tr><td>9</td><td>Toàn Rivaldo</td><td>17</td><td>AM</td><td>Tốc độ và bền bỉ</td></tr>
+            <tr><td>10</td><td>Khoa Kroos</td><td>18</td><td></td><td>Lên công, về thủ nhịp nhàng</td></tr>
+            <tr><td>11</td><td>Lamine GiaHuy</td><td>19</td><td>RW</td><td>Khả năng bứt tốc và tạt bóng chuẩn xác</td></tr>
+            <tr><td>12</td><td>Quí Gea</td><td>20</td><td>GK</td><td>Phòng thủ chắc chắn, con mắt của đội</td></tr>
+            <tr><td>13</td><td>Nhân Pirlo</td><td>21</td><td>CM</td><td>Bộ não chiến thuật của đội</td></tr>
+            <tr><td>14</td><td>Trường Tân</td><td>22</td><td>LW</td><td>Mũi khoan tốc độ bên hành lang phải</td></tr>
+            <tr><td>15</td><td>Phong Kumalala</td><td>24</td><td>RW</td><td>Kỹ thuật và tốc độ bùng nổ</td></tr>
+            <tr><td>16</td><td>Kha Kaka</td><td>29</td><td>AM</td><td>Linh hồn sáng tạo nơi tuyến giữa</td></tr>
+            <tr><td>17</td><td>Kha Boiz</td><td>30</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
         </table>
     </section>
+
+    <section>
+    <h2>📩 Liên hệ giao lưu cùng T4-FC</h2>
+    <p>
+        Nếu các đội bóng khác muốn <strong>giao lưu, tổ chức trận đấu hữu nghị</strong> hoặc <strong>liên hệ hợp tác</strong> cùng T4-FC, hãy gửi thông tin cho chúng tôi tại đây:
+    </p>
+
+    <form action="https://formspree.io/f/mkgwojqy" method="POST" style="max-width: 500px; margin: 0 auto; background: #ffd580; padding: 20px; border-radius: 15px; box-shadow: 0 0 15px #ff9933;">
+        <label for="name" style="font-weight: bold; color: #000;">Tên đội bóng hoặc người liên hệ:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 8px 0; border: none; border-radius: 10px;"><br>
+
+        <label for="email" style="font-weight: bold; color: #000;">Email hoặc số điện thoại:</label><br>
+        <input type="text" id="email" name="email" required style="width: 100%; padding: 10px; margin: 8px 0; border: none; border-radius: 10px;"><br>
+
+        <label for="message" style="font-weight: bold; color: #000;">Nội dung liên hệ:</label><br>
+        <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; margin: 8px 0; border: none; border-radius: 10px;"></textarea><br>
+
+        <button type="submit" style="background: linear-gradient(90deg, #ff6600, #cc3300); color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-weight: bold; box-shadow: 0 0 10px #ff9933; transition: 0.3s;">
+            Gửi liên hệ
+        </button>
+    </form>
+</section>
 
     <footer>
         <p>© 2025 T4-FC | THPT Nguyễn Văn Hai — Khẩu hiệu: <strong>THE FOURCE</strong></p>
