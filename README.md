@@ -195,10 +195,10 @@
             <tr><td>4</td><td>Ngọc Tài</td><td>7</td><td>ST</td><td>Mũi nhọn tấn công, săn bàn chủ lực</td></tr>
             <tr><td>5</td><td>Triều Liều</td><td>8</td><td>CDM</td><td>Nhạc trưởng điều tiết trận đấu</td></tr>
             <tr><td>6</td><td>Hào Milk</td><td>9</td><td>LW</td><td>Tốc độ và kỹ thuật tinh tế</td></tr>
-            <tr><td>7</td><td>Qui Musiala</td><td>10</td><td>AM</td><td>Khéo léo, sáng tạo</td></tr>
+            <tr><td>7</td><td>Qui Musiala</td><td>10</td><td>AM</td><td>Khéo léo, sáng tạo và có tư duy chiến thuật</td></tr>
             <tr><td>8</td><td>Hiền Gullit</td><td>11</td><td>AM/FW</td><td>Cân bằng tuyến giữa</td></tr>
-            <tr><td>9</td><td>Toàn Rivaldo</td><td>17</td><td>AM</td><td>Tốc độ và bền bỉ</td></tr>
-            <tr><td>10</td><td>Khoa Kroos</td><td>18</td><td></td><td>Lên công, về thủ nhịp nhàng</td></tr>
+            <tr><td>9</td><td>Toàn Rivaldo</td><td>17</td><td>AM</td><td>Tốc độ biết cách đột biến ở những pha tấn công</td></tr>
+            <tr><td>10</td><td>Khoa Kroos</td><td>18</td><td>CM</td><td>Lên công, về thủ nhịp nhàng</td></tr>
             <tr><td>11</td><td>Lamine GiaHuy</td><td>19</td><td>RW</td><td>Khả năng bứt tốc và tạt bóng chuẩn xác</td></tr>
             <tr><td>12</td><td>Quí Gea</td><td>20</td><td>GK</td><td>Phòng thủ chắc chắn, con mắt của đội</td></tr>
             <tr><td>13</td><td>Nhân Pirlo</td><td>21</td><td>CM</td><td>Bộ não chiến thuật của đội</td></tr>
