@@ -189,22 +189,22 @@
                 <th>Vị trí</th>
                 <th>Ghi chú</th>
             </tr>
-            <tr><td>1</td><td>Anh Oblak</td><td>1</td><td>GK</td><td>Bức tường thép nơi khung gỗ</td></tr>
-            <tr><td>2</td><td>Daniel Bảo</td><td>2</td><td>LB</td><td>Vững chắc, cản phá hàng công</td></tr>
-            <tr><td>3</td><td>Thịnh Mbappe</td><td>4</td><td>RW</td><td>Nhanh nhẹn, đọc tình huống tốt</td></tr>
-            <tr><td>4</td><td>Ngọc Tài</td><td>7</td><td>ST</td><td>Mũi nhọn tấn công, săn bàn chủ lực</td></tr>
-            <tr><td>5</td><td>Triều Liều</td><td>8</td><td>CDM</td><td>Nhạc trưởng điều tiết trận đấu</td></tr>
-            <tr><td>6</td><td>Hào Milk</td><td>9</td><td>LW</td><td>Tốc độ và kỹ thuật tinh tế</td></tr>
+            <tr><td>1</td><td>Anh Oblak</td><td>1</td><td>GK</td><td>Thủ thành thép giữ vững niềm tin nơi khung gỗ</td></tr>
+            <tr><td>2</td><td>Daniel Bảo</td><td>2</td><td>LB</td><td>Bức tường cánh trái, cản phá hàng công</td></tr>
+            <tr><td>3</td><td>Thịnh Mbappe</td><td>4</td><td>RW</td><td>Tốc độ như tên bắn, những pha bức tốc khó tin</td></tr>
+            <tr><td>4</td><td>Ngọc Tài</td><td>7</td><td>ST</td><td>Sát thủ vòng cấm, xuất hiện đúng lúc săn bàn chủ lực</td></tr>
+            <tr><td>5</td><td>Triều Liều</td><td>8</td><td>CDM</td><td>Lá chắn vững chắc, chiến đấu không biết mệt mỏi</td></tr>
+            <tr><td>6</td><td>Hào Milk</td><td>9</td><td>LW</td><td>Kỹ thuật tinh tế, át chủ bài trên hàng công</td></tr>
             <tr><td>7</td><td>Qui Musiala</td><td>10</td><td>AM</td><td>Khéo léo, sáng tạo và có tư duy chiến thuật</td></tr>
-            <tr><td>8</td><td>Hiền Gullit</td><td>11</td><td>AM/FW</td><td>Cân bằng tuyến giữa</td></tr>
+            <tr><td>8</td><td>Hiền Gullit</td><td>11</td><td>AM/FW</td><td>Cân bằng tuyến giữa tạo đột phá trong mọi tình huống</td></tr>
             <tr><td>9</td><td>Toàn Rivaldo</td><td>17</td><td>AM</td><td>Tốc độ biết cách đột biến ở những pha tấn công</td></tr>
-            <tr><td>10</td><td>Khoa Kroos</td><td>18</td><td>CM</td><td>Lên công, về thủ nhịp nhàng</td></tr>
+            <tr><td>10</td><td>Khoa Kroos</td><td>18</td><td>CM</td><td>Chuyên gia chuyền dài, lên công, về thủ nhịp nhàng</td></tr>
             <tr><td>11</td><td>Lamine GiaHuy</td><td>19</td><td>RW</td><td>Khả năng bứt tốc và tạt bóng chuẩn xác</td></tr>
-            <tr><td>12</td><td>Quí Gea</td><td>20</td><td>GK</td><td>Phòng thủ chắc chắn, con mắt của đội</td></tr>
-            <tr><td>13</td><td>Nhân Pirlo</td><td>21</td><td>CM</td><td>Bộ não chiến thuật của đội</td></tr>
-            <tr><td>14</td><td>Trường Tân</td><td>22</td><td>LW</td><td>Mũi khoan tốc độ bên hành lang phải</td></tr>
-            <tr><td>15</td><td>Phong Kumalala</td><td>24</td><td>RW</td><td>Kỹ thuật và tốc độ bùng nổ</td></tr>
-            <tr><td>16</td><td>Kha Kaka</td><td>29</td><td>AM</td><td>Linh hồn sáng tạo nơi tuyến giữa</td></tr>
+            <tr><td>12</td><td>Quí Gea</td><td>20</td><td>GK</td><td>Phòng thủ chắc chắn, tập trung sẵn sàng cứu thua </td></tr>
+            <tr><td>13</td><td>Nhân Pirlo</td><td>21</td><td>CM</td><td>Kiểm soát trận đấu bằng những đường chuyền đẳng cấp</td></tr>
+            <tr><td>14</td><td>Trường Tân</td><td>22</td><td>LW</td><td>Mũi khoan cánh phải ghi bàn chuẩn xác</td></tr>
+            <tr><td>15</td><td>Phong Kumalala</td><td>24</td><td>LW</td><td>Cơn lốc cánh trái kỹ thuật và tốc độ bùng nổ</td></tr>
+            <tr><td>16</td><td>Kha Kaka</td><td>29</td><td>AM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
             <tr><td>17</td><td>Kha Boiz</td><td>30</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
         </table>
     </section>
