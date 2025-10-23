@@ -202,7 +202,7 @@
             <tr><td>11</td><td>Lamine GiaHuy</td><td>19</td><td>RW</td><td>Khả năng bứt tốc và tạt bóng chuẩn xác</td></tr>
             <tr><td>12</td><td>Quí Gea</td><td>20</td><td>GK</td><td>Phòng thủ chắc chắn, tập trung sẵn sàng cứu thua </td></tr>
             <tr><td>13</td><td>Nhân Pirlo</td><td>21</td><td>CM</td><td>Kiểm soát trận đấu bằng những đường chuyền đẳng cấp</td></tr>
-            <tr><td>14</td><td>Trường Tân</td><td>22</td><td>LW</td><td>Mũi khoan cánh phải ghi bàn chuẩn xác</td></tr>
+            <tr><td>14</td><td>Trường Tân</td><td>22</td><td>RW</td><td>Mũi khoan cánh phải ghi bàn chuẩn xác</td></tr>
             <tr><td>15</td><td>Phong Kumalala</td><td>24</td><td>LW</td><td>Cơn lốc cánh trái kỹ thuật và tốc độ bùng nổ</td></tr>
             <tr><td>16</td><td>Kha Kaka</td><td>29</td><td>AM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
             <tr><td>17</td><td>Kha Boiz</td><td>30</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
