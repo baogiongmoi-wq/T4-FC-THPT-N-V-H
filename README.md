@@ -280,7 +280,7 @@
     <strong>liên hệ hợp tác</strong> cùng T4-FC, hãy gửi thông tin cho chúng tôi tại đây:
   </p>
 
-  <form id="contactForm" action="https://formspree.io/f/mkgwojqy" method="POST"
+  <form id="contactForm" action="https://formspree.io/f/movkogbe" method="POST"
         style="max-width:450px;margin:auto;background:#fff3cd;padding:25px;border-radius:15px;
                box-shadow:0 0 15px #ff9933;color:#000;font-weight:500;">
     
