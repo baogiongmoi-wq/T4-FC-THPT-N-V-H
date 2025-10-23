@@ -166,6 +166,71 @@
         </p>
         <p><strong>💪 T4-FC – Chiến đấu hết mình, vì danh dự, vì đam mê, vì tinh thần Nguyễn Văn Hai bất diệt!</strong></p>
     </section>
+    <section id="history">
+  <h2>🏆 Lịch sử hình thành và phát triển</h2>
+  <p>
+    Vào những ngày đầu của năm lớp 10, trên sân <strong>Học Đường</strong> chỉ có vài học sinh yêu bóng đá thường xuyên tụ tập để cùng nhau đá vui sau giờ học. 
+    Trong số đó, một vài người đã từng được thi đấu ở các cấp dưới, có kinh nghiệm và niềm đam mê mãnh liệt với trái bóng tròn. 
+    Chính từ những buổi tập đầy tiếng cười và tinh thần đồng đội ấy, ý tưởng thành lập một đội bóng chính thức của lớp dần được nhen nhóm.
+  </p>
+
+  <p>
+    Cuối năm lớp 10, khi sự gắn kết giữa các thành viên ngày càng mạnh mẽ hơn, ý tưởng ấy được hiện thực hóa. 
+    Đến đầu năm lớp 11, khoảng cuối tháng 9, số lượng thành viên tham gia các buổi đá bóng đã vượt con số 10. 
+    Sau nhiều cuộc trò chuyện, chia sẻ và rủ rê, vào ngày <strong>24/10/2024</strong>, nhóm Zalo <strong>T4-FC</strong> chính thức được thành lập với 17 thành viên — đánh dấu cột mốc ra đời của đội bóng mang tinh thần trẻ trung, đoàn kết và khát vọng cháy bỏng.
+  </p>
+
+  <p>
+    Dưới sự dẫn dắt của <strong>Coach-Trần Văn Anh Khoa</strong>, T4-FC bước vào những ngày đầu hoạt động đầy hứng khởi. 
+    Tuy sở hữu lợi thế về số lượng nhưng đội vẫn còn non kinh nghiệm, lối chơi chưa đồng đều. 
+    Trận đấu chính thức đầu tiên — cuộc đối đầu với T3 — tuy kết thúc bằng một thất bại, nhưng đó cũng chính là “bước ngoặt vàng”, mở ra hành trình rèn luyện, trưởng thành và hoàn thiện của từng thành viên. 
+    Ngày hôm ấy không chỉ là đá giao hữu, mà còn là trận đấu ra mắt <strong>bộ áo đấu đầu tiên</strong> – biểu tượng cho tinh thần và niềm tự hào của T4-FC.
+  </p>
+
+  <p>
+    Trong suốt năm lớp 11, đội không ngừng tập luyện và thi đấu. 
+    Dù là giữa trưa nắng gắt, khi mưa rơi nặng hạt, hay lúc bóng tối dần phủ kín sân, <strong>T4-FC</strong> vẫn luôn hiện diện – mồ hôi thấm áo, ý chí không bao giờ tắt. 
+    Từ những thất bại đầu tiên, đội đã xây dựng nên bản sắc riêng: thi đấu có chiến thuật, phối hợp nhuần nhuyễn, và trên hết là tinh thần “chiến đấu vì nhau”.
+  </p>
+
+  <p>
+    Thành quả của những tháng ngày khổ luyện chính là việc <strong>T4-FC</strong> dần đánh bại những đối thủ mạnh trong trường, khẳng định vị thế của mình như một đội bóng đáng gờm. 
+    Dù hiện tại, khi đã bước vào năm cuối cấp, áp lực học tập ngày một lớn, phong độ đôi lúc sa sút – nhưng ngọn lửa đam mê sân cỏ trong tim từng thành viên vẫn luôn cháy rực. 
+    T4-FC không chỉ là một đội bóng, mà còn là một gia đình, nơi tình bạn, nhiệt huyết và khát vọng chiến thắng luôn song hành cùng năm tháng học trò.
+  </p>
+</section>
+
+<style>
+  #history {
+    padding: 40px 25px;
+    margin: 50px auto;
+    background: rgba(255, 213, 128, 0.08);
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ff9933;
+  }
+
+  #history h2 {
+    color: #ff9933;
+    text-shadow: 0 0 12px #ff6600;
+    border-bottom: 2px solid #ffcc66;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+  }
+
+  #history p {
+    color: #ffcc66;
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-bottom: 18px;
+    text-align: justify;
+  }
+
+  #history strong {
+    color: #ffd580;
+  }
+</style>
+
 
     <section>
         <h2>👕 Áo thi đấu chính thức của T4-FC</h2>
