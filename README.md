@@ -230,6 +230,57 @@
         </button>
     </form>
 </section>
+<section id="map">
+  <h2>📍 Sân thi đấu </h2>
+  <p>Địa chỉ: <strong>W6FJ+M2H, Huyền Hội, Càng Long, Trà Vinh, Việt Nam</strong></p>
+
+  <a href="https://www.google.com/maps/place/W6FJ%2BM2H,+Huy%E1%BB%81n+H%E1%BB%99i,+C%C3%A0ng+Long,+Tr%C3%A0+Vinh,+Vi%E1%BB%87t+Nam" 
+     target="_blank" 
+     class="map-btn">
+     🔗 Xem vị trí trên Google Maps
+  </a>
+</section>
+
+<style>
+  #map {
+    text-align: center;
+    margin: 40px 0;
+    background: rgba(255, 213, 128, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ff9933;
+  }
+
+  #map h2 {
+    color: #ff9933;
+    text-shadow: 0 0 10px #ff6600;
+    margin-bottom: 10px;
+  }
+
+  #map p {
+    font-size: 1.2em;
+    color: #ffcc66;
+    margin-bottom: 15px;
+  }
+
+  .map-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff6600, #cc3300);
+    color: #fff;
+    padding: 12px 26px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff9933;
+    transition: 0.3s;
+  }
+
+  .map-btn:hover {
+    background: linear-gradient(90deg, #ff9933, #ff6600);
+    box-shadow: 0 0 20px #ffcc66;
+    transform: scale(1.05);
+  }
+</style>
 
     <footer>
         <p>© 2025 T4-FC | THPT Nguyễn Văn Hai — Khẩu hiệu: <strong>THE FOURCE</strong></p>
