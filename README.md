@@ -273,28 +273,81 @@
             <tr><td>17</td><td>Kha Boiz</td><td>30</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
         </table>
     </section>
+    <section id="contact">
+  <h2>📩 Liên hệ với T4-FC</h2>
+  <p style="color:#ffd580;">
+    Nếu các đội bóng khác muốn <strong>giao lưu, tổ chức trận đấu hữu nghị</strong> hoặc 
+    <strong>liên hệ hợp tác</strong> cùng T4-FC, hãy gửi thông tin cho chúng tôi tại đây:
+  </p>
 
-    <section>
-    <h2>📩 Liên hệ giao lưu cùng T4-FC</h2>
-    <p>
-        Nếu các đội bóng khác muốn <strong>giao lưu, tổ chức trận đấu hữu nghị</strong> hoặc <strong>liên hệ hợp tác</strong> cùng T4-FC, hãy gửi thông tin cho chúng tôi tại đây:
-    </p>
+  <form id="contactForm" action="https://formspree.io/f/mkgwojqy" method="POST"
+        style="max-width:450px;margin:auto;background:#fff3cd;padding:25px;border-radius:15px;
+               box-shadow:0 0 15px #ff9933;color:#000;font-weight:500;">
+    
+    <label for="name"><strong>Tên đội bóng hoặc người liên hệ</strong></label><br>
+    <input type="text" id="name" name="name" required
+           style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px;
+                  font-size:1em;color:#000;"><br>
 
-    <form action="https://formspree.io/f/mkgwojqy" method="POST" style="max-width: 500px; margin: 0 auto; background: #ffd580; padding: 20px; border-radius: 15px; box-shadow: 0 0 15px #ff9933;">
-        <label for="name" style="font-weight: bold; color: #000;">Tên đội bóng hoặc người liên hệ:</label><br>
-        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 8px 0; border: none; border-radius: 10px;"><br>
+    <label for="email"><strong>Email hoặc số điện thoại</strong></label><br>
+    <input type="text" id="email" name="email" required
+           style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px;
+                  font-size:1em;color:#000;"><br>
 
-        <label for="email" style="font-weight: bold; color: #000;">Email hoặc số điện thoại:</label><br>
-        <input type="text" id="email" name="email" required style="width: 100%; padding: 10px; margin: 8px 0; border: none; border-radius: 10px;"><br>
+    <label for="message"><strong>Nội dung liên hệ</strong></label><br>
+    <textarea id="message" name="message" rows="4" required
+              style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px;
+                     font-size:1em;color:#000;"></textarea><br>
 
-        <label for="message" style="font-weight: bold; color: #000;">Nội dung liên hệ:</label><br>
-        <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; margin: 8px 0; border: none; border-radius: 10px;"></textarea><br>
+    <button type="submit" id="submitBtn"
+            style="background:linear-gradient(90deg,#ff6600,#cc3300);color:white;
+                   padding:10px 20px;border:none;border-radius:8px;cursor:pointer;
+                   font-weight:bold;transition:0.3s;box-shadow:0 0 10px #ff9933;">
+      Gửi liên hệ
+    </button>
 
-        <button type="submit" style="background: linear-gradient(90deg, #ff6600, #cc3300); color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-weight: bold; box-shadow: 0 0 10px #ff9933; transition: 0.3s;">
-            Gửi liên hệ
-        </button>
-    </form>
+    <p id="statusMsg" style="text-align:center;color:#000;margin-top:10px;font-weight:bold;"></p>
+  </form>
 </section>
+
+<script>
+  const form = document.getElementById("contactForm");
+  const btn = document.getElementById("submitBtn");
+  const msg = document.getElementById("statusMsg");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault(); // Ngăn form reload trang
+    btn.disabled = true;
+    btn.textContent = "⏳ Đang gửi...";
+    msg.textContent = "";
+
+    // Gửi dữ liệu bằng Fetch đến Formspree
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        btn.textContent = "✅ Đã gửi thành công!";
+        msg.textContent = "Cảm ơn bạn! T4-FC sẽ phản hồi sớm nhất.";
+        form.reset();
+      } else {
+        btn.textContent = "⚠️ Lỗi gửi, thử lại!";
+        msg.textContent = "Có lỗi xảy ra, vui lòng thử lại sau.";
+      }
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = "Gửi liên hệ";
+      }, 4000);
+    }).catch(() => {
+      btn.textContent = "⚠️ Lỗi kết nối!";
+      msg.textContent = "Không thể gửi, vui lòng kiểm tra mạng.";
+      btn.disabled = false;
+    });
+  });
+</script>
+
+     
 <section id="map">
   <h2>📍 Sân thi đấu </h2>
   <p>Địa chỉ: <strong>W6FJ+M2H, Huyền Hội, Càng Long, Trà Vinh, Việt Nam</strong></p>
