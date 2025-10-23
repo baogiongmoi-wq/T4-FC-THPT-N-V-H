@@ -274,42 +274,29 @@
         </table>
     </section>
     <section id="contact">
-  <h2>📩 Liên hệ với T4-FC</h2>
-  <p style="color:#ffd580;">
+  <h2 style="text-align:center; color:#000;">📩 Liên hệ với T4-FC</h2>
+  <p style="text-align:center; color:#444;">
     Nếu các đội bóng khác muốn <strong>giao lưu, tổ chức trận đấu hữu nghị</strong> hoặc 
     <strong>liên hệ hợp tác</strong> cùng T4-FC, hãy gửi thông tin cho chúng tôi tại đây:
   </p>
 
-  <form id="contactForm" action="https://formspree.io/f/movkogbe" method="POST"
-        style="max-width:450px;margin:auto;background:#fff3cd;padding:25px;border-radius:15px;
-               box-shadow:0 0 15px #ff9933;color:#000;font-weight:500;">
+  <form action="https://formspree.io/f/movkogbe" method="POST"
+        style="max-width:450px;margin:20px auto;background:#fff3cd;padding:20px;border-radius:15px;box-shadow:0 0 15px #ff9933;">
     
-    <label for="name"><strong>Tên đội bóng hoặc người liên hệ</strong></label><br>
-    <input type="text" id="name" name="name" required
-           style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px;
-                  font-size:1em;color:#000;"><br>
+    <label style="font-weight:bold;color:#000;">Email của bạn:</label><br>
+    <input type="email" name="email" required
+           style="width:100%;padding:10px;margin:8px 0;border:none;border-radius:10px;"><br>
 
-    <label for="email"><strong>Email hoặc số điện thoại</strong></label><br>
-    <input type="text" id="email" name="email" required
-           style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px;
-                  font-size:1em;color:#000;"><br>
+    <label style="font-weight:bold;color:#000;">Nội dung liên hệ:</label><br>
+    <textarea name="message" rows="4" required
+              style="width:100%;padding:10px;margin:8px 0;border:none;border-radius:10px;"></textarea><br>
 
-    <label for="message"><strong>Nội dung liên hệ</strong></label><br>
-    <textarea id="message" name="message" rows="4" required
-              style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px;
-                     font-size:1em;color:#000;"></textarea><br>
-
-    <button type="submit" id="submitBtn"
-            style="background:linear-gradient(90deg,#ff6600,#cc3300);color:white;
-                   padding:10px 20px;border:none;border-radius:8px;cursor:pointer;
-                   font-weight:bold;transition:0.3s;box-shadow:0 0 10px #ff9933;">
+    <button type="submit" 
+            style="background:linear-gradient(90deg,#ff6600,#cc3300);color:white;padding:10px 20px;border:none;border-radius:10px;cursor:pointer;font-weight:bold;box-shadow:0 0 10px #ff9933;transition:0.3s;">
       Gửi liên hệ
     </button>
-
-    <p id="statusMsg" style="text-align:center;color:#000;margin-top:10px;font-weight:bold;"></p>
   </form>
-</section>
-
+</section>  
 <script>
   const form = document.getElementById("contactForm");
   const btn = document.getElementById("submitBtn");
