@@ -196,13 +196,13 @@
     <section id="history">
   <h2>🏆 Lịch sử hình thành và phát triển</h2>
   <p>
-    Vào những ngày đầu của năm lớp 10, trên sân <strong>Học Đường</strong> chỉ có vài học sinh yêu bóng đá thường xuyên tụ tập để cùng nhau đá vui sau giờ học. 
+    Vào những ngày đầu của năm lớp 10(23-24), trên sân <strong>Học Đường</strong> chỉ có vài học sinh yêu bóng đá thường xuyên tụ tập để cùng nhau đá vui sau giờ học. 
     Trong số đó, một vài người đã từng được thi đấu ở các cấp dưới, có kinh nghiệm và niềm đam mê mãnh liệt với trái bóng tròn. 
     Chính từ những buổi tập đầy tiếng cười và tinh thần đồng đội ấy, ý tưởng thành lập một đội bóng chính thức của lớp dần được nhen nhóm.
   </p>
 
   <p>
-    Cuối năm lớp 10, khi sự gắn kết giữa các thành viên ngày càng mạnh mẽ hơn, ý tưởng ấy được hiện thực hóa. 
+    Cuối năm lớp 10(23-24), khi sự gắn kết giữa các thành viên ngày càng mạnh mẽ hơn, ý tưởng ấy được hiện thực hóa. 
     Đến đầu năm lớp 11, khoảng cuối tháng 9, số lượng thành viên tham gia các buổi đá bóng đã vượt con số 10. 
     Sau nhiều cuộc trò chuyện, chia sẻ và rủ rê, vào ngày <strong>24/10/2024</strong>, nhóm Zalo <strong>T4-FC</strong> chính thức được thành lập với 17 thành viên — đánh dấu cột mốc ra đời của đội bóng mang tinh thần trẻ trung, đoàn kết và khát vọng cháy bỏng.
   </p>
@@ -210,12 +210,12 @@
   <p>
     Dưới sự dẫn dắt của <strong>Coach-Trần Văn Anh Khoa</strong>, T4-FC bước vào những ngày đầu hoạt động đầy hứng khởi. 
     Tuy sở hữu lợi thế về số lượng nhưng đội vẫn còn non kinh nghiệm, lối chơi chưa đồng đều. 
-    Trận đấu chính thức đầu tiên — cuộc đối đầu với T3 — tuy kết thúc bằng một thất bại, nhưng đó cũng chính là “bước ngoặt vàng”, mở ra hành trình rèn luyện, trưởng thành và hoàn thiện của từng thành viên. 
+    Trận đấu chính thức đầu tiên — cuộc đối đầu với A3 — tuy kết thúc bằng một thất bại, nhưng đó cũng chính là “bước ngoặt vàng”, mở ra hành trình rèn luyện, trưởng thành và hoàn thiện của từng thành viên. 
     Ngày hôm ấy không chỉ là đá giao hữu, mà còn là trận đấu ra mắt <strong>bộ áo đấu đầu tiên</strong> – biểu tượng cho tinh thần và niềm tự hào của T4-FC.
   </p>
 
   <p>
-    Trong suốt năm lớp 11, đội không ngừng tập luyện và thi đấu. 
+    Trong suốt năm lớp 11(24-25), đội không ngừng tập luyện và thi đấu. 
     Dù là giữa trưa nắng gắt, khi mưa rơi nặng hạt, hay lúc bóng tối dần phủ kín sân, <strong>T4-FC</strong> vẫn luôn hiện diện – mồ hôi thấm áo, ý chí không bao giờ tắt. 
     Từ những thất bại đầu tiên, đội đã xây dựng nên bản sắc riêng: thi đấu có chiến thuật, phối hợp nhuần nhuyễn, và trên hết là tinh thần “chiến đấu vì nhau”.
   </p>
@@ -296,8 +296,8 @@
             <tr><td>13</td><td>Nhân Pirlo</td><td>21</td><td>CM</td><td>Kiểm soát trận đấu bằng những đường chuyền đẳng cấp</td></tr>
             <tr><td>14</td><td>Trường Tân</td><td>22</td><td>RW</td><td>Mũi khoan cánh phải ghi bàn chuẩn xác</td></tr>
             <tr><td>15</td><td>Phong Kumalala</td><td>24</td><td>LW</td><td>Cơn lốc cánh trái kỹ thuật và tốc độ bùng nổ</td></tr>
-            <tr><td>16</td><td>Kha Kaka</td><td>29</td><td>AM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
-            <tr><td>17</td><td>Kha Boiz</td><td>30</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
+            <tr><td>16</td><td>Kha Boiz</td><td>28</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
+            <tr><td>17</td><td>Kha Kaka</td><td>29</td><td>AM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
         </table>
     </section>
     <section id="contact">
