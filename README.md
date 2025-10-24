@@ -1,4 +1,3 @@
-
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +10,7 @@
             color: #ffd580;
             margin: 0;
             padding: 0;
+            scroll-behavior: smooth; /* Cuộn mượt khi nhấn mục lục */
         }
 
         header {
@@ -43,6 +43,34 @@
             text-shadow: 0 0 15px #ff6600;
         }
 
+        /* 🔸 Thanh mục lục */
+        nav#toc {
+            background: rgba(255, 213, 128, 0.08);
+            box-shadow: 0 0 10px #ff9933;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 12px;
+            max-width: 800px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            backdrop-filter: blur(6px);
+        }
+
+        nav#toc a {
+            color: #ffcc66;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 12px;
+            transition: 0.3s;
+        }
+
+        nav#toc a:hover {
+            color: #fff;
+            text-shadow: 0 0 10px #ffcc66;
+        }
+
         section {
             padding: 20px;
             line-height: 1.6;
@@ -54,7 +82,6 @@
             padding-bottom: 5px;
             text-shadow: 0 0 10px #ff6600;
         }
-
         /* Ảnh áo thi đấu */
         .uniforms {
             display: flex;
