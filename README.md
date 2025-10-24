@@ -274,41 +274,116 @@
         </table>
     </section>
     <section id="contact">
-  <h2 style="text-align:center; color:#000;">📩 Liên hệ với T4-FC</h2>
-  <p style="text-align:center; color:#444;">
+  <h2 class="contact-title">📩 Liên hệ với T4-FC</h2>
+  <p class="contact-desc">
     Nếu các đội bóng khác muốn <strong>giao lưu, tổ chức trận đấu hữu nghị</strong> hoặc 
     <strong>liên hệ hợp tác</strong> cùng T4-FC, hãy gửi thông tin cho chúng tôi tại đây:
   </p>
 
-  <form action="https://formspree.io/f/movkogbe" method="POST"
-        style="max-width:450px;margin:20px auto;background:#fff3cd;padding:20px;border-radius:15px;box-shadow:0 0 15px #ff9933;">
+  <form id="contactForm" action="https://formspree.io/f/mkgwojqy" method="POST"
+        class="contact-form">
     
-    <label style="font-weight:bold;color:#000;">Email của bạn:</label><br>
-    <input type="email" name="email" required
-           style="width:100%;padding:10px;margin:8px 0;border:none;border-radius:10px;"><br>
+    <label for="name" class="label"><strong>Tên đội bóng hoặc người liên hệ</strong></label><br>
+    <input type="text" id="name" name="name" required class="input"><br>
 
-    <label style="font-weight:bold;color:#000;">Nội dung liên hệ:</label><br>
-    <textarea name="message" rows="4" required
-              style="width:100%;padding:10px;margin:8px 0;border:none;border-radius:10px;"></textarea><br>
+    <label for="email" class="label"><strong>Email hoặc số điện thoại</strong></label><br>
+    <input type="text" id="email" name="email" required class="input"><br>
 
-    <button type="submit" 
-            style="background:linear-gradient(90deg,#ff6600,#cc3300);color:white;padding:10px 20px;border:none;border-radius:10px;cursor:pointer;font-weight:bold;box-shadow:0 0 10px #ff9933;transition:0.3s;">
+    <label for="message" class="label"><strong>Nội dung liên hệ</strong></label><br>
+    <textarea id="message" name="message" rows="4" required class="textarea"></textarea><br>
+
+    <button type="submit" id="submitBtn" class="btn">
       Gửi liên hệ
     </button>
+
+    <p id="statusMsg" class="status"></p>
   </form>
-</section>  
+</section>
+
+<style>
+  /* Tiêu đề & mô tả */
+  .contact-title {
+    color: #ff9933;           /* màu da cam cho tiêu đề */
+    text-shadow: 0 0 10px #ff6600;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .contact-desc {
+    color: #ffd580;           /* màu vàng sáng cho phần mô tả */
+    text-align: center;
+    margin: 0 0 18px 0;
+  }
+
+  /* Form */
+  .contact-form {
+    max-width: 450px;
+    margin: 0 auto 30px;
+    background: #fff3cd;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 0 15px #ff9933;
+    color: #000;              /* mặc định chữ trong form màu đen */
+    font-weight: 500;
+  }
+
+  .label {
+    color: #000;              /* nhãn ghi màu đen */
+  }
+
+  .input, .textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 12px 0;
+    border: 1px solid #d4c49a;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #000;              /* chữ nhập màu đen */
+    background: #fff;
+    box-sizing: border-box;
+  }
+
+  .textarea { min-height: 110px; }
+
+  .btn {
+    display: inline-block;
+    background: linear-gradient(90deg,#ff6600,#cc3300);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff9933;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 0 18px #ffcc66; }
+
+  .status {
+    text-align: center;
+    margin-top: 12px;
+    color: #000;
+    font-weight: 600;
+  }
+
+  /* Responsive */
+  @media (max-width:600px) {
+    .contact-form { padding: 18px; }
+  }
+</style>
+
 <script>
+  // Giữ lại behavior gửi và hiển thị trạng thái (như trước)
   const form = document.getElementById("contactForm");
   const btn = document.getElementById("submitBtn");
   const msg = document.getElementById("statusMsg");
 
   form.addEventListener("submit", (e) => {
-    e.preventDefault(); // Ngăn form reload trang
+    e.preventDefault();
     btn.disabled = true;
     btn.textContent = "⏳ Đang gửi...";
     msg.textContent = "";
 
-    // Gửi dữ liệu bằng Fetch đến Formspree
     fetch(form.action, {
       method: "POST",
       body: new FormData(form),
@@ -325,7 +400,7 @@
       setTimeout(() => {
         btn.disabled = false;
         btn.textContent = "Gửi liên hệ";
-      }, 4000);
+      }, 3500);
     }).catch(() => {
       btn.textContent = "⚠️ Lỗi kết nối!";
       msg.textContent = "Không thể gửi, vui lòng kiểm tra mạng.";
@@ -334,7 +409,6 @@
   });
 </script>
 
-     
 <section id="map">
   <h2>📍 Sân thi đấu </h2>
   <p>Địa chỉ: <strong>W6FJ+M2H, Huyền Hội, Càng Long, Trà Vinh, Việt Nam</strong></p>
