@@ -492,7 +492,7 @@
     <footer>
         <p>© 2025 T4-FC | THPT Nguyễn Văn Hai — Khẩu hiệu: <strong>THE FOURCE</strong></p>
     </footer>
-<!-- Popup hiển thị thông tin cầu thủ -->
+<!-- 🔹 POPUP HIỂN THỊ THÔNG TIN CẦU THỦ -->
 <div id="playerPopup" class="popup" style="display:none;">
   <div class="popup-content">
     <span class="close" onclick="closePopup()">&times;</span>
@@ -516,6 +516,7 @@
   justify-content: center;
   z-index: 999;
 }
+
 .popup-content {
   background: #fff;
   border-radius: 15px;
@@ -524,14 +525,25 @@
   text-align: center;
   position: relative;
   animation: fadeIn 0.3s ease-in-out;
+  color: #000; /* 🔹 Toàn bộ chữ hiển thị màu đen */
 }
+
 .popup-content img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.popup-content h2 { color: #b30000; margin: 10px 0; }
-.popup-content p { margin: 5px 0; }
+
+.popup-content h2 {
+  color: #b30000; /* 🔹 Giữ nguyên màu đỏ cho tên cầu thủ */
+  margin: 10px 0;
+}
+
+.popup-content p {
+  margin: 5px 0;
+  color: #000; /* 🔹 Chắc chắn thông tin hiển thị màu đen */
+}
+
 .popup-content .fb-link {
   display: inline-block;
   margin-top: 10px;
@@ -541,13 +553,18 @@
   border-radius: 8px;
   text-decoration: none;
 }
+
 .popup-content .close {
   position: absolute;
   top: 8px; right: 12px;
   font-size: 24px;
   cursor: pointer;
 }
-@keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 </style>
 
 <script>
@@ -588,6 +605,7 @@ function closePopup() {
   document.getElementById("playerPopup").style.display = "none";
 }
 </script>
+
 
 </body>
 </html>
