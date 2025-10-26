@@ -553,23 +553,23 @@
 <script>
 // --- Dữ liệu 17 cầu thủ ---
 const players = {
-  "Nhân Pirlo": { name: "Huỳnh Ngọc Nhân", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/nhan", img: "default.jpg" },
-  "Trường Tân": { name: "Nguyễn Trường Tân", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/truongtan", img: "default.jpg" },
-  "Kha Boiz": { name: "Nguyễn Minh Kha", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/khaboiz", img: "default.jpg" },
-  "Phát Tài": { name: "Trần Phát Tài", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/phattai", img: "default.jpg" },
-  "Bảo Anh": { name: "Trần Bảo Anh", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/baoanh", img: "default.jpg" },
-  "Lâm Sang": { name: "Lâm Hữu Sang", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/lamhuusang", img: "default.jpg" },
-  "Tấn Đạt": { name: "Nguyễn Tấn Đạt", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/tandat", img: "default.jpg" },
-  "Minh Khánh": { name: "Nguyễn Minh Khánh", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/minhkhanh", img: "default.jpg" },
-  "Hoàng Phúc": { name: "Trần Hoàng Phúc", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/hoangphuc", img: "default.jpg" },
-  "Nhật Nam": { name: "Nguyễn Nhật Nam", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/nhatnam", img: "default.jpg" },
-  "Công Lý": { name: "Phạm Công Lý", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/congly", img: "default.jpg" },
-  "Ngọc Tài": { name: "Nguyễn Ngọc Tài", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/ngoctai", img: "default.jpg" },
-  "Hữu Tín": { name: "Nguyễn Hữu Tín", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/huutin", img: "default.jpg" },
-  "Trường An": { name: "Nguyễn Trường An", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/truongan", img: "default.jpg" },
-  "Tấn Khoa": { name: "Nguyễn Tấn Khoa", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/tankhoa", img: "default.jpg" },
-  "Tuấn Kiệt": { name: "Trần Tuấn Kiệt", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/tuankiet", img: "default.jpg" },
-  "Hữu Nghĩa": { name: "Nguyễn Hữu Nghĩa", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/huunghia", img: "default.jpg" }
+  "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg" },
+  "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg" },
+  "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg" },
+  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJYoYd/", img: "default.jpg" },
+  "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg" },
+  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "default.jpg" },
+  "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg" },
+  "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg" },
+  "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "default.jpg" },
+  "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "default.jpg" },
+  "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg" },
+  "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg" },
+  "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg" },
+  "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg" },
+  "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg" },
+  "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg" },
+  "Qui Musiala": { name: "Nguyễn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg" }
 };
 
 // --- Hàm hiển thị popup ---
