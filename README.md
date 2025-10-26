@@ -586,7 +586,7 @@ const players = {
   "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg" },
   "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg" },
   "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg" },
-  "Qui Musiala": { name: "Nguyễn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg" }
+  "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg" }
 };
 
 // --- Hàm hiển thị popup ---
