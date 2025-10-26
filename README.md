@@ -491,5 +491,102 @@
     <footer>
         <p>© 2025 T4-FC | THPT Nguyễn Văn Hai — Khẩu hiệu: <strong>THE FOURCE</strong></p>
     </footer>
+<!-- Popup hiển thị thông tin cầu thủ -->
+<div id="playerPopup" class="popup" style="display:none;">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <img id="playerImg" src="" alt="Ảnh cầu thủ">
+    <h2 id="playerName"></h2>
+    <p><strong>Ngày sinh:</strong> <span id="playerDob"></span></p>
+    <p><strong>Nơi sinh:</strong> <span id="playerPlace"></span></p>
+    <a id="playerFb" href="#" target="_blank" class="fb-link">Xem Facebook</a>
+  </div>
+</div>
+
+<style>
+/* --- Popup Style --- */
+.popup {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.popup-content {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  width: 320px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+.popup-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.popup-content h2 { color: #b30000; margin: 10px 0; }
+.popup-content p { margin: 5px 0; }
+.popup-content .fb-link {
+  display: inline-block;
+  margin-top: 10px;
+  background: #1877f2;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.popup-content .close {
+  position: absolute;
+  top: 8px; right: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}
+@keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+</style>
+
+<script>
+// --- Dữ liệu 17 cầu thủ ---
+const players = {
+  "Nhân Pirlo": { name: "Huỳnh Ngọc Nhân", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/nhan", img: "default.jpg" },
+  "Trường Tân": { name: "Nguyễn Trường Tân", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/truongtan", img: "default.jpg" },
+  "Kha Boiz": { name: "Nguyễn Minh Kha", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/khaboiz", img: "default.jpg" },
+  "Phát Tài": { name: "Trần Phát Tài", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/phattai", img: "default.jpg" },
+  "Bảo Anh": { name: "Trần Bảo Anh", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/baoanh", img: "default.jpg" },
+  "Lâm Sang": { name: "Lâm Hữu Sang", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/lamhuusang", img: "default.jpg" },
+  "Tấn Đạt": { name: "Nguyễn Tấn Đạt", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/tandat", img: "default.jpg" },
+  "Minh Khánh": { name: "Nguyễn Minh Khánh", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/minhkhanh", img: "default.jpg" },
+  "Hoàng Phúc": { name: "Trần Hoàng Phúc", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/hoangphuc", img: "default.jpg" },
+  "Nhật Nam": { name: "Nguyễn Nhật Nam", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/nhatnam", img: "default.jpg" },
+  "Công Lý": { name: "Phạm Công Lý", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/congly", img: "default.jpg" },
+  "Ngọc Tài": { name: "Nguyễn Ngọc Tài", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/ngoctai", img: "default.jpg" },
+  "Hữu Tín": { name: "Nguyễn Hữu Tín", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/huutin", img: "default.jpg" },
+  "Trường An": { name: "Nguyễn Trường An", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/truongan", img: "default.jpg" },
+  "Tấn Khoa": { name: "Nguyễn Tấn Khoa", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/tankhoa", img: "default.jpg" },
+  "Tuấn Kiệt": { name: "Trần Tuấn Kiệt", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/tuankiet", img: "default.jpg" },
+  "Hữu Nghĩa": { name: "Nguyễn Hữu Nghĩa", dob: "2007", place: "Trà Vinh", fb: "https://facebook.com/huunghia", img: "default.jpg" }
+};
+
+// --- Hàm hiển thị popup ---
+function showPlayerInfo(nickname) {
+  const p = players[nickname];
+  if (!p) return alert("Không tìm thấy thông tin cầu thủ này!");
+  document.getElementById("playerImg").src = p.img;
+  document.getElementById("playerName").textContent = p.name;
+  document.getElementById("playerDob").textContent = p.dob;
+  document.getElementById("playerPlace").textContent = p.place;
+  document.getElementById("playerFb").href = p.fb;
+  document.getElementById("playerPopup").style.display = "flex";
+}
+
+function closePopup() {
+  document.getElementById("playerPopup").style.display = "none";
+}
+</script>
+
 </body>
 </html>
