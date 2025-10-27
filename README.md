@@ -357,7 +357,7 @@ html {
 
     </section>
     <section id="contact">
-  <h2 class="contact-title">📩 Liên hệ với T4-FC</h2>
+  <h2 class="contact-title">📩 Liên hệ</h2>
   <p class="contact-desc">
     Nếu các đội bóng khác muốn <strong>giao lưu, tổ chức trận đấu hữu nghị</strong> hoặc 
     <strong>liên hệ hợp tác</strong> cùng T4-FC, hãy gửi thông tin cho chúng tôi tại đây:
