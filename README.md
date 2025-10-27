@@ -351,7 +351,7 @@ html {
     <tr><td>14</td><td onclick="showPlayerInfo('Trường Tân')" style="cursor:pointer; color:#007bff;">Trường Tân</td><td>22</td><td>RW</td><td>Mũi khoan cánh phải ghi bàn chuẩn xác</td></tr>
     <tr><td>15</td><td onclick="showPlayerInfo('Phong Kumalala')" style="cursor:pointer; color:#007bff;">Phong Kumalala</td><td>24</td><td>LW</td><td>Cơn lốc cánh trái kỹ thuật và tốc độ bùng nổ</td></tr>
    <tr><td>16</td><td onclick="showPlayerInfo('Kha Boiz')" style="cursor:pointer; color:#007bff;">Kha Boiz</td><td>28</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
-   <tr><td>17</td><td onclick="showPlayerInfo('Kha Kaka')" style="cursor:pointer; color:#007bff;">Kha Kaka</td><td>29</td><td>CCAM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
+   <tr><td>17</td><td onclick="showPlayerInfo('Kha Kaka')" style="cursor:pointer; color:#007bff;">Kha Kaka</td><td>29</td><td>CAM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
 </table>
 
 
@@ -659,7 +659,7 @@ html {
 <script>
 // --- Dữ liệu cầu thủ ---
 const players = {
-  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJ121" },img: "default.jpg", height: "178cm", weight: "65kg", position: "GK 118" },
+  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJ121" ,img: "default.jpg", height: "178cm", weight: "65kg", position: "GK 118" },
   "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg", height: "174cm", weight: "61kg", position: "LB 121" },
   "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg", height: "172cm", weight: "59kg", position: "RW 121" },
   "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg", height: "175cm", weight: "64kg", position: "ST 128" },
