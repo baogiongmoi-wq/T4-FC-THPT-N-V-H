@@ -275,7 +275,73 @@ html {
   </p>
 
   <p>
-    Thành quả của những tháng ngày khổ luyện cCAM</td><td>Khéo léo, sáng tạo và có tư duy chiến thuật</td></tr>
+    Thành quả của những tháng ngày khổ luyện chính là việc <strong>T4-FC</strong> dần đánh bại những đối thủ mạnh trong trường, khẳng định vị thế của mình như một đội bóng đáng gờm. 
+    Dù hiện tại, khi đã bước vào năm cuối cấp, áp lực học tập ngày một lớn, phong độ đôi lúc sa sút – nhưng ngọn lửa đam mê sân cỏ trong tim từng thành viên vẫn luôn cháy rực. 
+    T4-FC không chỉ là một đội bóng, mà còn là một gia đình, nơi tình bạn, nhiệt huyết và khát vọng chiến thắng luôn song hành cùng năm tháng học trò.
+  </p>
+</section>
+
+<style>
+  #history {
+    padding: 40px 25px;
+    margin: 50px auto;
+    background: rgba(255, 213, 128, 0.08);
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ff9933;
+  }
+
+  #history h2 {
+    color: #ff9933;
+    text-shadow: 0 0 12px #ff6600;
+    border-bottom: 2px solid #ffcc66;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+  }
+
+  #history p {
+    color: #ffcc66;
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-bottom: 18px;
+    text-align: justify;
+  }
+
+  #history strong {
+    color: #ffd580;
+  }
+</style>
+
+
+    <section id="aodau">
+        <h2>👕 Áo thi đấu chính thức của T4-FC</h2>
+        <div class="uniforms">
+            <div>
+                <img src="z5973258455951_4d6dd257bc16403fc1cabbf1fc3bf7ab.jpg" alt="Áo thi đấu T4-FC">
+                <p>Áo thi đấu</p>
+            </div>
+            <div>
+                <img src="z6675838432936_81ae87965a74c971cca2df0014a03a89.jpg" alt="Áo thi đấu T4-FC">
+                <p>Áo thi đấu</p>
+            </div>
+        </div>
+<section id="cauthu">
+        <h2 style="margin-top: 40px;">👥 Danh sách cầu thủ</h2>
+    <table>
+    <tr>
+        <th>STT</th>
+        <th>Tên cầu thủ</th>
+        <th>Số áo</th>
+        <th>Vị trí</th>
+        <th>Ghi chú</th>
+    </tr>
+    <tr><td>1</td><td onclick="showPlayerInfo('Anh Oblak')" style="cursor:pointer; color:#007bff;">Anh Oblak</td><td>1</td><td>GK</td><td>Thủ thành thép giữ vững niềm tin nơi khung gỗ</td></tr>
+    <tr><td>2</td><td onclick="showPlayerInfo('Daniel Bảo')" style="cursor:pointer; color:#007bff;">Daniel Bảo</td><td>2</td><td>LB</td><td>Bức tường cánh trái, cản phá hàng công</td></tr>
+    <tr><td>3</td><td onclick="showPlayerInfo('Thịnh Mbappe')" style="cursor:pointer; color:#007bff;">Thịnh Mbappe</td><td>4</td><td>RW</td><td>Tốc độ như tên bắn, những pha bức tốc khó tin</td></tr>
+    <tr><td>4</td><td onclick="showPlayerInfo('Ngọc Tài')" style="cursor:pointer; color:#007bff;">Ngọc Tài</td><td>7</td><td>ST</td><td>Sát thủ vòng cấm, xuất hiện đúng lúc săn bàn chủ lực</td></tr>
+    <tr><td>5</td><td onclick="showPlayerInfo('Triều Liều')" style="cursor:pointer; color:#007bff;">Triều Liều</td><td>8</td><td>CDM</td><td>Lá chắn vững chắc, chiến đấu không biết mệt mỏi</td></tr>
+    <tr><td>6</td><td onclick="showPlayerInfo('Hào Milk')" style="cursor:pointer; color:#007bff;">Hào Milk</td><td>9</td><td>LW</td><td>Kỹ thuật tinh tế, át chủ bài trên hàng công</td></tr>
+    <tr><td>7</td><td onclick="showPlayerInfo('Qui Musiala')" style="cursor:pointer; color:#007bff;">Qui Musiala</td><td>10</td><td>CAM</td><td>Khéo léo, sáng tạo và có tư duy chiến thuật</td></tr>
     <tr><td>8</td><td onclick="showPlayerInfo('Hiền Gullit')" style="cursor:pointer; color:#007bff;">Hiền Gullit</td><td>11</td><td>CF</td><td>Cân bằng tuyến giữa tạo đột phá trong mọi tình huống</td></tr>
     <tr><td>9</td><td onclick="showPlayerInfo('Toàn Rivaldo')" style="cursor:pointer; color:#007bff;">Toàn Rivaldo</td><td>17</td><td>LW</td><td>Tốc độ biết cách đột biến ở những pha tấn công</td></tr>
     <tr><td>10</td><td onclick="showPlayerInfo('Khoa Kroos')" style="cursor:pointer; color:#007bff;">Khoa Kroos</td><td>18</td><td>CM</td><td>Chuyên gia chuyền dài, lên công, về thủ nhịp nhàng</td></tr>
