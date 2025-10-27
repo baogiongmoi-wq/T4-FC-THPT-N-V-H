@@ -275,73 +275,7 @@ html {
   </p>
 
   <p>
-    Thành quả của những tháng ngày khổ luyện chính là việc <strong>T4-FC</strong> dần đánh bại những đối thủ mạnh trong trường, khẳng định vị thế của mình như một đội bóng đáng gờm. 
-    Dù hiện tại, khi đã bước vào năm cuối cấp, áp lực học tập ngày một lớn, phong độ đôi lúc sa sút – nhưng ngọn lửa đam mê sân cỏ trong tim từng thành viên vẫn luôn cháy rực. 
-    T4-FC không chỉ là một đội bóng, mà còn là một gia đình, nơi tình bạn, nhiệt huyết và khát vọng chiến thắng luôn song hành cùng năm tháng học trò.
-  </p>
-</section>
-
-<style>
-  #history {
-    padding: 40px 25px;
-    margin: 50px auto;
-    background: rgba(255, 213, 128, 0.08);
-    border-radius: 15px;
-    box-shadow: 0 0 15px #ff9933;
-  }
-
-  #history h2 {
-    color: #ff9933;
-    text-shadow: 0 0 12px #ff6600;
-    border-bottom: 2px solid #ffcc66;
-    display: inline-block;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-  }
-
-  #history p {
-    color: #ffcc66;
-    line-height: 1.8;
-    font-size: 1.1em;
-    margin-bottom: 18px;
-    text-align: justify;
-  }
-
-  #history strong {
-    color: #ffd580;
-  }
-</style>
-
-
-    <section id="aodau">
-        <h2>👕 Áo thi đấu chính thức của T4-FC</h2>
-        <div class="uniforms">
-            <div>
-                <img src="z5973258455951_4d6dd257bc16403fc1cabbf1fc3bf7ab.jpg" alt="Áo thi đấu T4-FC">
-                <p>Áo thi đấu</p>
-            </div>
-            <div>
-                <img src="z6675838432936_81ae87965a74c971cca2df0014a03a89.jpg" alt="Áo thi đấu T4-FC">
-                <p>Áo thi đấu</p>
-            </div>
-        </div>
-<section id="cauthu">
-        <h2 style="margin-top: 40px;">👥 Danh sách cầu thủ</h2>
-    <table>
-    <tr>
-        <th>STT</th>
-        <th>Tên cầu thủ</th>
-        <th>Số áo</th>
-        <th>Vị trí</th>
-        <th>Ghi chú</th>
-    </tr>
-    <tr><td>1</td><td onclick="showPlayerInfo('Anh Oblak')" style="cursor:pointer; color:#007bff;">Anh Oblak</td><td>1</td><td>GK</td><td>Thủ thành thép giữ vững niềm tin nơi khung gỗ</td></tr>
-    <tr><td>2</td><td onclick="showPlayerInfo('Daniel Bảo')" style="cursor:pointer; color:#007bff;">Daniel Bảo</td><td>2</td><td>LB</td><td>Bức tường cánh trái, cản phá hàng công</td></tr>
-    <tr><td>3</td><td onclick="showPlayerInfo('Thịnh Mbappe')" style="cursor:pointer; color:#007bff;">Thịnh Mbappe</td><td>4</td><td>RW</td><td>Tốc độ như tên bắn, những pha bức tốc khó tin</td></tr>
-    <tr><td>4</td><td onclick="showPlayerInfo('Ngọc Tài')" style="cursor:pointer; color:#007bff;">Ngọc Tài</td><td>7</td><td>ST</td><td>Sát thủ vòng cấm, xuất hiện đúng lúc săn bàn chủ lực</td></tr>
-    <tr><td>5</td><td onclick="showPlayerInfo('Triều Liều')" style="cursor:pointer; color:#007bff;">Triều Liều</td><td>8</td><td>CDM</td><td>Lá chắn vững chắc, chiến đấu không biết mệt mỏi</td></tr>
-    <tr><td>6</td><td onclick="showPlayerInfo('Hào Milk')" style="cursor:pointer; color:#007bff;">Hào Milk</td><td>9</td><td>LW</td><td>Kỹ thuật tinh tế, át chủ bài trên hàng công</td></tr>
-    <tr><td>7</td><td onclick="showPlayerInfo('Qui Musiala')" style="cursor:pointer; color:#007bff;">Qui Musiala</td><td>10</td><td>AM</td><td>Khéo léo, sáng tạo và có tư duy chiến thuật</td></tr>
+    Thành quả của những tháng ngày khổ luyện cCAM</td><td>Khéo léo, sáng tạo và có tư duy chiến thuật</td></tr>
     <tr><td>8</td><td onclick="showPlayerInfo('Hiền Gullit')" style="cursor:pointer; color:#007bff;">Hiền Gullit</td><td>11</td><td>CF</td><td>Cân bằng tuyến giữa tạo đột phá trong mọi tình huống</td></tr>
     <tr><td>9</td><td onclick="showPlayerInfo('Toàn Rivaldo')" style="cursor:pointer; color:#007bff;">Toàn Rivaldo</td><td>17</td><td>LW</td><td>Tốc độ biết cách đột biến ở những pha tấn công</td></tr>
     <tr><td>10</td><td onclick="showPlayerInfo('Khoa Kroos')" style="cursor:pointer; color:#007bff;">Khoa Kroos</td><td>18</td><td>CM</td><td>Chuyên gia chuyền dài, lên công, về thủ nhịp nhàng</td></tr>
@@ -601,14 +535,14 @@ html {
 
 .popup-left h2 {
   font-size: 1.6em;
-  color: #ff3333;
+  color: #ff3333; /* giữ nguyên màu tên */
   margin-bottom: 10px;
 }
 
-/* --- tăng kích thước chữ thông tin --- */
+/* --- thông tin cầu thủ --- */
 .popup-left p {
   margin: 6px 0;
-  font-size: 1.2em; /* tăng từ 1em lên 1.2em */
+  font-size: 1.2em;
   color: #000; /* thông tin màu đen */
   background: rgba(255,255,255,0.6);
   padding: 4px 8px;
@@ -659,29 +593,30 @@ html {
 <script>
 // --- Dữ liệu cầu thủ ---
 const players = {
-  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJ121" ,img: "default.jpg", height: "178cm", weight: "65kg", position: "GK 118" },
-  "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg", height: "174cm", weight: "61kg", position: "LB 121" },
-  "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg", height: "172cm", weight: "59kg", position: "RW 121" },
-  "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg", height: "175cm", weight: "64kg", position: "ST 128" },
-  "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "default.jpg", height: "174cm", weight: "60kg", position: "CDM 124" },
-  "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg", height: "169cm", weight: "56kg", position: "LW 123" },
-  "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg", height: "172cm", weight: "59kg", position: "CAM 121" },
-  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "default.jpg", height: "176cm", weight: "63kg", position: "CF 126" },
-  "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg", height: "171cm", weight: "59kg", position: "LW 122" },
-  "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg", height: "173cm", weight: "61kg", position: "CM 122" },
-  "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "default.jpg", height: "168cm", weight: "55kg", position: "RW 122" },
-  "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg", height: "180cm", weight: "70kg", position: "GK 118" },
-  "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg", height: "170cm", weight: "58kg", position: "CM 125" },
-  "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg", height: "171cm", weight: "60kg", position: "RW 124" },
+  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJYoYd/" ,img: "default.jpg", height: "178cm", weight: "65kg", position: "GK118" },
+  "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg", height: "174cm", weight: "61kg", position: "LB121" },
+  "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg", height: "172cm", weight: "59kg", position: "RW121" },
+  "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg", height: "175cm", weight: "64kg", position: "ST128" },
+  "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "default.jpg", height: "174cm", weight: "60kg", position: "CDM124" },
+  "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg", height: "169cm", weight: "56kg", position: "LW123" },
+  "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg", height: "172cm", weight: "59kg", position: "CAM121" },
+  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "default.jpg", height: "176cm", weight: "63kg", position: "CF126" },
+  "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg", height: "171cm", weight: "59kg", position: "LW122" },
+  "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg", height: "173cm", weight: "61kg", position: "CM122" },
+  "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "default.jpg", height: "168cm", weight: "55kg", position: "RW122" },
+  "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg", height: "180cm", weight: "70kg", position: "GK118" },
+  "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg", height: "170cm", weight: "58kg", position: "CM125" },
+  "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg", height: "171cm", weight: "60kg", position: "RW124" },
   "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg", height: "170cm", weight: "58kg", position: "LW 126" },
-  "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg", height: "177cm", weight: "65kg", position: "CAM 123" },
-  "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg", height: "173cm", weight: "62kg", position: "CDM 121" }
+  "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg", height: "177cm", weight: "65kg", position: "CAM123" },
+  "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg", height: "173cm", weight: "62kg", position: "CDM121" }
 };
 
 // --- Hiển thị popup ---
 function showPlayerInfo(nickname) {
   const p = players[nickname];
   if (!p) return alert("Không tìm thấy thông tin cầu thủ này!");
+
   document.getElementById("playerImg").src = p.img;
   document.getElementById("playerName").textContent = p.name;
   document.getElementById("playerDob").textContent = p.dob;
@@ -690,6 +625,17 @@ function showPlayerInfo(nickname) {
   document.getElementById("playerWeight").textContent = p.weight;
   document.getElementById("playerPosition").textContent = p.position;
   document.getElementById("playerFb").href = p.fb;
+
+  // --- Đổi màu vị trí ---
+  const posSpan = document.getElementById("playerPosition");
+  const posText = p.position.toUpperCase();
+
+  if (posText.includes("GK")) posSpan.style.color = "yellow";
+  else if (posText.includes("LB")) posSpan.style.color = "deepskyblue";
+  else if (["CM", "CAM", "CDM"].some(x => posText.includes(x))) posSpan.style.color = "limegreen";
+  else if (["ST", "LW", "RW", "CF"].some(x => posText.includes(x))) posSpan.style.color = "red";
+  else posSpan.style.color = "black";
+
   document.getElementById("playerPopup").style.display = "flex";
 }
 
