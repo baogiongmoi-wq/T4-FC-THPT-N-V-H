@@ -673,7 +673,7 @@ const players = {
   "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg", height: "180cm", weight: "70kg", position: "GK118" },
   "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg", height: "170cm", weight: "58kg", position: "CM125" },
   "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg", height: "171cm", weight: "60kg", position: "RW124" },
-  "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg", height: "170cm", weight: "58kg", position: "LW 126" },
+  "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg", height: "170cm", weight: "58kg", position: "LW126" },
   "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg", height: "177cm", weight: "65kg", position: "CAM123" },
   "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg", height: "173cm", weight: "62kg", position: "CDM121" }
 };
@@ -689,18 +689,22 @@ function showPlayerInfo(nickname) {
   document.getElementById("playerPlace").textContent = p.place;
   document.getElementById("playerHeight").textContent = p.height;
   document.getElementById("playerWeight").textContent = p.weight;
-  document.getElementById("playerPosition").textContent = p.position;
   document.getElementById("playerFb").href = p.fb;
 
-  // --- Đổi màu vị trí ---
+  // --- Xử lý vị trí + số ---
   const posSpan = document.getElementById("playerPosition");
-  const posText = p.position.toUpperCase();
+  const match = p.position.match(/^([A-Za-z]+)\s*(\d+)?$/);
+  const pos = match ? match[1].toUpperCase() : p.position.toUpperCase();
+  const num = match && match[2] ? match[2] : "";
 
-  if (posText.includes("GK")) posSpan.style.color = "yellow";
-  else if (posText.includes("LB")) posSpan.style.color = "deepskyblue";
-  else if (["CM", "CAM", "CDM"].some(x => posText.includes(x))) posSpan.style.color = "limegreen";
-  else if (["ST", "LW", "RW", "CF"].some(x => posText.includes(x))) posSpan.style.color = "red";
-  else posSpan.style.color = "black";
+  // --- Đặt màu cho vị trí ---
+  let color = "black";
+  if (pos.includes("GK")) color = "yellow";
+  else if (pos.includes("LB")) color = "deepskyblue";
+  else if (["CM", "CAM", "CDM"].includes(pos)) color = "limegreen";
+  else if (["ST", "LW", "RW", "CF"].includes(pos)) color = "red";
+
+  posSpan.innerHTML = `<strong style="color:${color}; font-weight:900;">${pos}</strong> <span style="color:black;">${num}</span>`;
 
   document.getElementById("playerPopup").style.display = "flex";
 }
