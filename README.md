@@ -273,7 +273,7 @@
         </div>
 
         <h2 style="margin-top: 40px;">👥 Danh sách cầu thủ</h2>
-       <table>
+    <table>
     <tr>
         <th>STT</th>
         <th>Tên cầu thủ</th>
@@ -281,24 +281,25 @@
         <th>Vị trí</th>
         <th>Ghi chú</th>
     </tr>
-    <tr><td>1</td><td onclick="showPlayerInfo('Anh Oblak')" style="cursor:pointer; color:#007bff;">Anh Oblak</td><td>1</td><td>Thủ môn</td><td>Bức tường thép nơi khung gỗ</td></tr>
-    <tr><td>2</td><td onclick="showPlayerInfo('Daniel Bảo')" style="cursor:pointer; color:#007bff;">Daniel Bảo</td><td>2</td><td>Hậu vệ trái</td><td>Vững chắc, cản phá hàng công</td></tr>
-    <tr><td>3</td><td onclick="showPlayerInfo('Thịnh Mbappe')" style="cursor:pointer; color:#007bff;">Thịnh Mbappe</td><td>4</td><td>Trung vệ</td><td>Nhanh nhẹn, đọc tình huống tốt</td></tr>
-    <tr><td>4</td><td onclick="showPlayerInfo('Ngọc Tài')" style="cursor:pointer; color:#007bff;">Ngọc Tài</td><td>7</td><td>Tiền đạo</td><td>Mũi nhọn tấn công, săn bàn chủ lực</td></tr>
-    <tr><td>5</td><td onclick="showPlayerInfo('Triều Liều')" style="cursor:pointer; color:#007bff;">Triều Liều</td><td>8</td><td>Tiền vệ trung tâm</td><td>Nhạc trưởng điều tiết trận đấu</td></tr>
-    <tr><td>6</td><td onclick="showPlayerInfo('Hào Milk')" style="cursor:pointer; color:#007bff;">Hào Milk</td><td>9</td><td>Tiền đạo</td><td>Tốc độ và kỹ thuật tinh tế</td></tr>
-    <tr><td>7</td><td onclick="showPlayerInfo('Qui Musiala')" style="cursor:pointer; color:#007bff;">Qui Musiala</td><td>10</td><td>Tiền vệ tấn công</td><td>Khéo léo, sáng tạo</td></tr>
-    <tr><td>8</td><td onclick="showPlayerInfo('Hiền Gullit')" style="cursor:pointer; color:#007bff;">Hiền Gullit</td><td>11</td><td>Tiền vệ phòng ngự</td><td>Cân bằng tuyến giữa</td></tr>
-    <tr><td>9</td><td onclick="showPlayerInfo('Toàn Rivaldo')" style="cursor:pointer; color:#007bff;">Toàn Rivaldo</td><td>17</td><td>Hậu vệ trái</td><td>Tốc độ và bền bỉ</td></tr>
-    <tr><td>10</td><td onclick="showPlayerInfo('Khoa Kroos')" style="cursor:pointer; color:#007bff;">Khoa Kroos</td><td>18</td><td>Tiền vệ trung tâm</td><td>Lên công, về thủ nhịp nhàng</td></tr>
-    <tr><td>11</td><td onclick="showPlayerInfo('Lamine GiaHuy')" style="cursor:pointer; color:#007bff;">Lamine GiaHuy</td><td>19</td><td>Tiền vệ cánh trái</td><td>Khả năng bứt tốc và tạt bóng chuẩn xác</td></tr>
-    <tr><td>12</td><td onclick="showPlayerInfo('Quí Gea')" style="cursor:pointer; color:#007bff;">Quí Gea</td><td>20</td><td>Thủ môn</td><td>Phòng thủ chắc chắn, con mắt của đội</td></tr>
-    <tr><td>13</td><td onclick="showPlayerInfo('Nhân Pirlo')" style="cursor:pointer; color:#007bff;">Nhân Pirlo</td><td>21</td><td>Tiền vệ trung tâm</td><td>Bộ não chiến thuật của đội</td></tr>
-    <tr><td>14</td><td onclick="showPlayerInfo('Trường Tân')" style="cursor:pointer; color:#007bff;">Trường Tân</td><td>22</td><td>Tiền đạo cánh phải</td><td>Mũi khoan tốc độ bên hành lang phải</td></tr>
-    <tr><td>15</td><td onclick="showPlayerInfo('Phong Kumalala')" style="cursor:pointer; color:#007bff;">Phong Kumalala</td><td>24</td><td>Tiền đạo cánh trái</td><td>Kỹ thuật và tốc độ bùng nổ</td></tr>
-    <tr><td>16</td><td onclick="showPlayerInfo('Kha Kaka')" style="cursor:pointer; color:#007bff;">Kha Kaka</td><td>29</td><td>Tiền vệ tấn công</td><td>Linh hồn sáng tạo nơi tuyến giữa</td></tr>
-    <tr><td>17</td><td onclick="showPlayerInfo('Kha Boiz')" style="cursor:pointer; color:#007bff;">Kha Boiz</td><td>30</td><td>Tiền vệ</td><td>Đa năng, luôn biết cách tạo khác biệt</td></tr>
+    <tr><td>1</td><td onclick="showPlayerInfo('Anh Oblak')" style="cursor:pointer; color:#007bff;">Anh Oblak</td><td>1</td><td>GK</td><td>Thủ thành thép giữ vững niềm tin nơi khung gỗ</td></tr>
+    <tr><td>2</td><td onclick="showPlayerInfo('Daniel Bảo')" style="cursor:pointer; color:#007bff;">Daniel Bảo</td><td>2</td><td>LB</td><td>Bức tường cánh trái, cản phá hàng công</td></tr>
+    <tr><td>3</td><td onclick="showPlayerInfo('Thịnh Mbappe')" style="cursor:pointer; color:#007bff;">Thịnh Mbappe</td><td>4</td><td>RW</td><td>Tốc độ như tên bắn, những pha bức tốc khó tin</td></tr>
+    <tr><td>4</td><td onclick="showPlayerInfo('Ngọc Tài')" style="cursor:pointer; color:#007bff;">Ngọc Tài</td><td>7</td><td>ST</td><td>Sát thủ vòng cấm, xuất hiện đúng lúc săn bàn chủ lực</td></tr>
+    <tr><td>5</td><td onclick="showPlayerInfo('Triều Liều')" style="cursor:pointer; color:#007bff;">Triều Liều</td><td>8</td><td>CDM</td><td>Lá chắn vững chắc, chiến đấu không biết mệt mỏi</td></tr>
+    <tr><td>6</td><td onclick="showPlayerInfo('Hào Milk')" style="cursor:pointer; color:#007bff;">Hào Milk</td><td>9</td><td>LW</td><td>Kỹ thuật tinh tế, át chủ bài trên hàng công</td></tr>
+    <tr><td>7</td><td onclick="showPlayerInfo('Qui Musiala')" style="cursor:pointer; color:#007bff;">Qui Musiala</td><td>10</td><td>AM</td><td>Khéo léo, sáng tạo và có tư duy chiến thuật</td></tr>
+    <tr><td>8</td><td onclick="showPlayerInfo('Hiền Gullit')" style="cursor:pointer; color:#007bff;">Hiền Gullit</td><td>11</td><td>AM/FW</td><td>Cân bằng tuyến giữa tạo đột phá trong mọi tình huống</td></tr>
+    <tr><td>9</td><td onclick="showPlayerInfo('Toàn Rivaldo')" style="cursor:pointer; color:#007bff;">Toàn Rivaldo</td><td>17</td><td>AM</td><td>Tốc độ biết cách đột biến ở những pha tấn công</td></tr>
+    <tr><td>10</td><td onclick="showPlayerInfo('Khoa Kroos')" style="cursor:pointer; color:#007bff;">Khoa Kroos</td><td>18</td><td>CM</td><td>Chuyên gia chuyền dài, lên công, về thủ nhịp nhàng</td></tr>
+    <tr><td>11</td><td onclick="showPlayerInfo('Lamine GiaHuy')" style="cursor:pointer; color:#007bff;">Lamine GiaHuy</td><td>19</td><td>RW</td><td>Khả năng bứt tốc và tạt bóng chuẩn xác</td></tr>
+    <tr><td>12</td><td onclick="showPlayerInfo('Quí Gea')" style="cursor:pointer; color:#007bff;">Quí Gea</td><td>20</td><td>GK</td><td>Phòng thủ chắc chắn, tập trung sẵn sàng cứu thua</td></tr>
+    <tr><td>13</td><td onclick="showPlayerInfo('Nhân Pirlo')" style="cursor:pointer; color:#007bff;">Nhân Pirlo</td><td>21</td><td>CM</td><td>Kiểm soát trận đấu bằng những đường chuyền đẳng cấp</td></tr>
+    <tr><td>14</td><td onclick="showPlayerInfo('Trường Tân')" style="cursor:pointer; color:#007bff;">Trường Tân</td><td>22</td><td>RW</td><td>Mũi khoan cánh phải ghi bàn chuẩn xác</td></tr>
+    <tr><td>15</td><td onclick="showPlayerInfo('Phong Kumalala')" style="cursor:pointer; color:#007bff;">Phong Kumalala</td><td>24</td><td>LW</td><td>Cơn lốc cánh trái kỹ thuật và tốc độ bùng nổ</td></tr>
+   <tr><td>16</td><td onclick="showPlayerInfo('Kha Boiz')" style="cursor:pointer; color:#007bff;">Kha Boiz</td><td>30</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
+   <tr><td>17</td><td onclick="showPlayerInfo('Kha Kaka')" style="cursor:pointer; color:#007bff;">Kha Kaka</td><td>29</td><td>AM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
 </table>
+
 
     </section>
     <section id="contact">
@@ -492,102 +493,127 @@
     <footer>
         <p>© 2025 T4-FC | THPT Nguyễn Văn Hai — Khẩu hiệu: <strong>THE FOURCE</strong></p>
     </footer>
-<!-- 🔹 POPUP HIỂN THỊ THÔNG TIN CẦU THỦ -->
+<!-- Popup hiển thị thông tin cầu thủ -->
 <div id="playerPopup" class="popup" style="display:none;">
-  <div class="popup-content">
+  <div class="popup-card">
     <span class="close" onclick="closePopup()">&times;</span>
-    <img id="playerImg" src="" alt="Ảnh cầu thủ">
-    <h2 id="playerName"></h2>
-    <p><strong>Ngày sinh:</strong> <span id="playerDob"></span></p>
-    <p><strong>Nơi sinh:</strong> <span id="playerPlace"></span></p>
-    <a id="playerFb" href="#" target="_blank" class="fb-link">Xem Facebook</a>
+
+    <div class="popup-left">
+      <h2 id="playerName"></h2>
+      <p><strong>Năm sinh:</strong> <span id="playerDob"></span></p>
+      <p><strong>Nơi sinh:</strong> <span id="playerPlace"></span></p>
+      <p><strong>Chiều cao:</strong> <span id="playerHeight"></span></p>
+      <p><strong>Cân nặng:</strong> <span id="playerWeight"></span></p>
+      <p><strong>Vị trí:</strong> <span id="playerPosition"></span></p>
+      <a id="playerFb" href="#" target="_blank" class="fb-link">Facebook</a>
+    </div>
+
+    <div class="popup-right">
+      <img id="playerImg" src="default.jpg" alt="Ảnh cầu thủ">
+    </div>
   </div>
 </div>
 
 <style>
-/* --- Popup Style --- */
 .popup {
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.85);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 999;
 }
 
-.popup-content {
-  background: #fff;
-  border-radius: 15px;
-  padding: 25px;
-  width: 320px;
-  text-align: center;
+.popup-card {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(135deg, #2b0000, #000);
+  border-radius: 18px;
+  overflow: hidden;
+  color: #fff;
+  width: 650px;
+  max-width: 95%;
+  box-shadow: 0 0 20px rgba(255,0,0,0.4);
   position: relative;
   animation: fadeIn 0.3s ease-in-out;
-  color: #000; /* 🔹 Toàn bộ chữ hiển thị màu đen */
 }
 
-.popup-content img {
-  width: 100%;
-  border-radius: 10px;
+.popup-left {
+  padding: 25px;
+  flex: 1;
+}
+.popup-left h2 {
+  font-size: 1.6em;
+  color: #ff3333;
   margin-bottom: 10px;
 }
-
-.popup-content h2 {
-  color: #b30000; /* 🔹 Giữ nguyên màu đỏ cho tên cầu thủ */
-  margin: 10px 0;
+.popup-left p {
+  margin: 6px 0;
+  font-size: 1em;
 }
-
-.popup-content p {
-  margin: 5px 0;
-  color: #000; /* 🔹 Chắc chắn thông tin hiển thị màu đen */
-}
-
-.popup-content .fb-link {
+.fb-link {
   display: inline-block;
   margin-top: 10px;
-  background: #1877f2;
-  color: #fff;
   padding: 8px 14px;
-  border-radius: 8px;
+  background: #1877f2;
+  color: white;
   text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.fb-link:hover { background: #1458b0; }
+
+.popup-right {
+  width: 45%;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup-right img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-.popup-content .close {
+.close {
   position: absolute;
-  top: 8px; right: 12px;
-  font-size: 24px;
+  top: 10px;
+  right: 18px;
+  font-size: 30px;
   cursor: pointer;
+  color: #fff;
+  transition: 0.2s;
 }
+.close:hover { color: #ff4444; }
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
 </style>
 
 <script>
-// --- Dữ liệu 17 cầu thủ ---
+// --- Dữ liệu 17 cầu thủ (đã sắp xếp và chỉnh vị trí đúng như bảng) ---
 const players = {
-  "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg" },
-  "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg" },
-  "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg" },
-  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJYoYd/", img: "default.jpg" },
-  "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg" },
-  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "default.jpg" },
-  "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg" },
-  "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg" },
-  "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "default.jpg" },
-  "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "default.jpg" },
-  "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg" },
-  "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg" },
-  "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg" },
-  "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg" },
-  "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg" },
-  "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg" },
-  "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg" }
+  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJYoYd/", img: "default.jpg", height: "178cm", weight: "65kg", position: "GK" },
+  "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg", height: "174cm", weight: "61kg", position: "LB" },
+  "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg", height: "172cm", weight: "59kg", position: "RW" },
+  "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg", height: "175cm", weight: "64kg", position: "ST" },
+  "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "default.jpg", height: "174cm", weight: "60kg", position: "CDM" },
+  "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg", height: "169cm", weight: "56kg", position: "LW" },
+  "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg", height: "172cm", weight: "59kg", position: "AM" },
+  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "default.jpg", height: "176cm", weight: "63kg", position: "AM/FW" },
+  "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg", height: "171cm", weight: "59kg", position: "AM" },
+  "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg", height: "173cm", weight: "61kg", position: "CM" },
+  "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "default.jpg", height: "168cm", weight: "55kg", position: "RW" },
+  "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg", height: "180cm", weight: "70kg", position: "GK" },
+  "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg", height: "170cm", weight: "58kg", position: "CM" },
+  "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg", height: "171cm", weight: "60kg", position: "RW" },
+  "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg", height: "170cm", weight: "58kg", position: "LW" },
+  "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg", height: "177cm", weight: "65kg", position: "AM" },
+  "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg", height: "173cm", weight: "62kg", position: "CDM" }
 };
+
 
 // --- Hàm hiển thị popup ---
 function showPlayerInfo(nickname) {
@@ -597,6 +623,9 @@ function showPlayerInfo(nickname) {
   document.getElementById("playerName").textContent = p.name;
   document.getElementById("playerDob").textContent = p.dob;
   document.getElementById("playerPlace").textContent = p.place;
+  document.getElementById("playerHeight").textContent = p.height;
+  document.getElementById("playerWeight").textContent = p.weight;
+  document.getElementById("playerPosition").textContent = p.position;
   document.getElementById("playerFb").href = p.fb;
   document.getElementById("playerPopup").style.display = "flex";
 }
@@ -605,6 +634,7 @@ function closePopup() {
   document.getElementById("playerPopup").style.display = "none";
 }
 </script>
+
 
 
 </body>
