@@ -185,10 +185,10 @@
 <nav class="navbar">
   <ul>
     <li><a href="#gioithieu">Giới thiệu</a></li>
-    <li><a href="#lichsu">Lịch sử hình thành & phát triển</a></li>
     <li><a href="#aodau">Áo đấu</a></li>
-    <li><a href="#cauthu">Cầu thủ</a></li>
+    <li><a href="#cauthu">Danh sách cầu thủ</a></li>
     <li><a href="#lienhe">Liên hệ</a></li>
+    <li><a href="#san">Sân thi đấu</a></li>  
   </ul>
 </nav>
 
@@ -247,7 +247,7 @@ html {
         </p>
         <p><strong>💪 T4-FC – Chiến đấu hết mình, vì danh dự, vì đam mê, vì tinh thần Nguyễn Văn Hai bất diệt!</strong></p>
     </section>
-    <section id="lichsu">
+    <section>
   <h2>🏆 Lịch sử hình thành và phát triển</h2>
   <p>
     Vào những ngày đầu của năm lớp 10(23-24), trên sân <strong>Học Đường</strong> chỉ có vài học sinh yêu bóng đá thường xuyên tụ tập để cùng nhau đá vui sau giờ học. 
@@ -350,7 +350,7 @@ html {
     <tr><td>13</td><td onclick="showPlayerInfo('Nhân Pirlo')" style="cursor:pointer; color:#007bff;">Nhân Pirlo</td><td>21</td><td>CM</td><td>Kiểm soát trận đấu bằng những đường chuyền đẳng cấp</td></tr>
     <tr><td>14</td><td onclick="showPlayerInfo('Trường Tân')" style="cursor:pointer; color:#007bff;">Trường Tân</td><td>22</td><td>RW</td><td>Mũi khoan cánh phải ghi bàn chuẩn xác</td></tr>
     <tr><td>15</td><td onclick="showPlayerInfo('Phong Kumalala')" style="cursor:pointer; color:#007bff;">Phong Kumalala</td><td>24</td><td>LW</td><td>Cơn lốc cánh trái kỹ thuật và tốc độ bùng nổ</td></tr>
-   <tr><td>16</td><td onclick="showPlayerInfo('Kha Boiz')" style="cursor:pointer; color:#007bff;">Kha Boiz</td><td>30</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
+   <tr><td>16</td><td onclick="showPlayerInfo('Kha Boiz')" style="cursor:pointer; color:#007bff;">Kha Boiz</td><td>28</td><td>CDM</td><td>Đa năng, luôn biết cách tạo sự khác biệt</td></tr>
    <tr><td>17</td><td onclick="showPlayerInfo('Kha Kaka')" style="cursor:pointer; color:#007bff;">Kha Kaka</td><td>29</td><td>AM</td><td>Bậc thầy kiến tạo linh hồn sáng tạo nơi tuyến giữa</td></tr>
 </table>
 
@@ -492,7 +492,7 @@ html {
   });
 </script>
 
-<section id="map">
+<section id="san">
   <h2>📍 Sân thi đấu </h2>
   <p>Địa chỉ: <strong>W6FJ+M2H, Huyền Hội, Càng Long, Trà Vinh, Việt Nam</strong></p>
 
@@ -697,9 +697,5 @@ function closePopup() {
   document.getElementById("playerPopup").style.display = "none";
 }
 </script>
-
-
-
-
 </body>
 </html>
