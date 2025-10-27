@@ -659,23 +659,23 @@ html {
 <script>
 // --- Dữ liệu cầu thủ ---
 const players = {
-  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJYoYd/", img: "default.jpg", height: "178cm", weight: "65kg", position: "GK" },
-  "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg", height: "174cm", weight: "61kg", position: "LB" },
-  "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg", height: "172cm", weight: "59kg", position: "RW" },
-  "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg", height: "175cm", weight: "64kg", position: "ST" },
-  "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "default.jpg", height: "174cm", weight: "60kg", position: "CDM" },
-  "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg", height: "169cm", weight: "56kg", position: "LW" },
-  "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg", height: "172cm", weight: "59kg", position: "AM" },
-  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "default.jpg", height: "176cm", weight: "63kg", position: "AM/FW" },
-  "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg", height: "171cm", weight: "59kg", position: "AM" },
-  "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg", height: "173cm", weight: "61kg", position: "CM" },
-  "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "default.jpg", height: "168cm", weight: "55kg", position: "RW" },
-  "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg", height: "180cm", weight: "70kg", position: "GK" },
-  "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg", height: "170cm", weight: "58kg", position: "CM" },
-  "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg", height: "171cm", weight: "60kg", position: "RW" },
-  "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg", height: "170cm", weight: "58kg", position: "LW" },
-  "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg", height: "177cm", weight: "65kg", position: "AM" },
-  "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg", height: "173cm", weight: "62kg", position: "CDM" }
+  "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJ121" },img: "default.jpg", height: "178cm", weight: "65kg", position: "GK 118" },
+  "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg", height: "174cm", weight: "61kg", position: "LB 121" },
+  "Thịnh Mbappe": { name: "Đặng Thái Thịnh", dob: "13/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DnxjEJpUV/", img: "default.jpg", height: "172cm", weight: "59kg", position: "RW 121" },
+  "Ngọc Tài": { name: "Kiên Ngọc Tài", dob: "16/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14NmgS1FjSw/", img: "default.jpg", height: "175cm", weight: "64kg", position: "ST 128" },
+  "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "default.jpg", height: "174cm", weight: "60kg", position: "CDM 124" },
+  "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "default.jpg", height: "169cm", weight: "56kg", position: "LW 123" },
+  "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "default.jpg", height: "172cm", weight: "59kg", position: "CAM 121" },
+  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "default.jpg", height: "176cm", weight: "63kg", position: "CF 126" },
+  "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "default.jpg", height: "171cm", weight: "59kg", position: "LW 122" },
+  "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "default.jpg", height: "173cm", weight: "61kg", position: "CM 122" },
+  "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "default.jpg", height: "168cm", weight: "55kg", position: "RW 122" },
+  "Quí Gea": { name: "Phạm Phú Quí", dob: "31/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1FrQSCWTC5/", img: "default.jpg", height: "180cm", weight: "70kg", position: "GK 118" },
+  "Nhân Pirlo": { name: "Nguyễn Trọng Nhân", dob: "21/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/14Knx7is72t/", img: "Nhân.jpg", height: "170cm", weight: "58kg", position: "CM 125" },
+  "Trường Tân": { name: "Lâm Trường Tân", dob: "22/10/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/19n2JuHYG6/", img: "default.jpg", height: "171cm", weight: "60kg", position: "RW 124" },
+  "Phong Kumalala": { name: "Hồ Vũ Phong", dob: "22/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DBzsQp26G/", img: "default.jpg", height: "170cm", weight: "58kg", position: "LW 126" },
+  "Kha Kaka": { name: "Lương Ngọc Kha", dob: "29/05/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/18kuW6V2DC/", img: "default.jpg", height: "177cm", weight: "65kg", position: "CAM 123" },
+  "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg", height: "173cm", weight: "62kg", position: "CDM 121" }
 };
 
 // --- Hiển thị popup ---
@@ -697,5 +697,3 @@ function closePopup() {
   document.getElementById("playerPopup").style.display = "none";
 }
 </script>
-</body>
-</html>
