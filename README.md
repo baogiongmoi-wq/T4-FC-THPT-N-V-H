@@ -247,7 +247,7 @@ html {
         </p>
         <p><strong>💪 T4-FC – Chiến đấu hết mình, vì danh dự, vì đam mê, vì tinh thần Nguyễn Văn Hai bất diệt!</strong></p>
     </section>
-    <section id="lichsulichsu">
+    <section id="lichsu">
   <h2>🏆 Lịch sử hình thành và phát triển</h2>
   <p>
     Vào những ngày đầu của năm lớp 10(23-24), trên sân <strong>Học Đường</strong> chỉ có vài học sinh yêu bóng đá thường xuyên tụ tập để cùng nhau đá vui sau giờ học. 
@@ -313,7 +313,7 @@ html {
 </style>
 
 
-    <section id="aodauaodau">
+    <section id="aodau">
         <h2>👕 Áo thi đấu chính thức của T4-FC</h2>
         <div class="uniforms">
             <div>
@@ -325,7 +325,7 @@ html {
                 <p>Áo thi đấu</p>
             </div>
         </div>
-
+<section id="cauthu">
         <h2 style="margin-top: 40px;">👥 Danh sách cầu thủ</h2>
     <table>
     <tr>
@@ -356,7 +356,7 @@ html {
 
 
     </section>
-    <section id="lienhelienhe">
+    <section id="lienhe">
   <h2 class="contact-title">📩 Liên hệ</h2>
   <p class="contact-desc">
     Nếu các đội bóng khác muốn <strong>giao lưu, tổ chức trận đấu hữu nghị</strong> hoặc 
