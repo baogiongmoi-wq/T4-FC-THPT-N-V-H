@@ -181,6 +181,60 @@
         <img src="z5976717039808_f650e9c78d80460fcbb049c210a54470.jpg" alt="Logo T4-FC">
         <h1>T4-FC | THPT Nguyễn Văn Hai</h1>
     </header>
+    <!-- Thanh mục lục (Menu điều hướng) -->
+<nav class="navbar">
+  <ul>
+    <li><a href="#gioithieu">Giới thiệu</a></li>
+    <li><a href="#lichsu">Lịch sử hình thành & phát triển</a></li>
+    <li><a href="#aodau">Áo đấu</a></li>
+    <li><a href="#cauthu">Cầu thủ</a></li>
+    <li><a href="#lienhe">Liên hệ</a></li>
+  </ul>
+</nav>
+
+<style>
+/* ===== Thanh menu ===== */
+.navbar {
+  background: linear-gradient(90deg, #ff6600, #cc3300);
+  padding: 12px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0; /* Giữ thanh cố định khi cuộn */
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.05em;
+  transition: 0.3s;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.navbar a:hover {
+  background: #fff;
+  color: #cc3300;
+}
+
+/* Cuộn mượt khi nhấn vào mục */
+html {
+  scroll-behavior: smooth;
+}
+</style>
 
     <section>
         <h2>🔥 T4-FC – Tinh thần thể thao của THPT Nguyễn Văn Hai! 🔥</h2>
@@ -544,15 +598,25 @@
   padding: 25px;
   flex: 1;
 }
+
 .popup-left h2 {
   font-size: 1.6em;
   color: #ff3333;
   margin-bottom: 10px;
 }
+
+/* --- tăng kích thước chữ thông tin --- */
 .popup-left p {
   margin: 6px 0;
-  font-size: 1em;
+  font-size: 1.2em; /* tăng từ 1em lên 1.2em */
+  color: #000; /* thông tin màu đen */
+  background: rgba(255,255,255,0.6);
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
 }
+
+/* giữ nguyên nút Facebook */
 .fb-link {
   display: inline-block;
   margin-top: 10px;
@@ -593,7 +657,7 @@
 </style>
 
 <script>
-// --- Dữ liệu 17 cầu thủ (đã sắp xếp và chỉnh vị trí đúng như bảng) ---
+// --- Dữ liệu cầu thủ ---
 const players = {
   "Anh Oblak": { name: "Nguyễn Kha Anh", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1AhXQJYoYd/", img: "default.jpg", height: "178cm", weight: "65kg", position: "GK" },
   "Daniel Bảo": { name: "Huỳnh Chí Bảo", dob: "24/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1cR4BKsdPs/", img: "default.jpg", height: "174cm", weight: "61kg", position: "LB" },
@@ -614,8 +678,7 @@ const players = {
   "Kha Boiz": { name: "Nguyễn Kha Em", dob: "28/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BUvHjbMo7/", img: "default.jpg", height: "173cm", weight: "62kg", position: "CDM" }
 };
 
-
-// --- Hàm hiển thị popup ---
+// --- Hiển thị popup ---
 function showPlayerInfo(nickname) {
   const p = players[nickname];
   if (!p) return alert("Không tìm thấy thông tin cầu thủ này!");
@@ -634,6 +697,7 @@ function closePopup() {
   document.getElementById("playerPopup").style.display = "none";
 }
 </script>
+
 
 
 
