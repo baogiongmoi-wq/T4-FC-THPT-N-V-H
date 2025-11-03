@@ -654,48 +654,7 @@ html {
 .close:hover { color: #ff4444; }
 
 @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
-    /* --- NỀN TRÀN QUA BÊN PHẢI --- */
-.popup-card {
-  display: flex;
-  flex-direction: row;
-  background: linear-gradient(to right, #2b0000 60%, #2b0000cc 80%, transparent 100%);
-  border-radius: 18px;
-  overflow: hidden;
-  color: #fff;
-  width: 650px;
-  max-width: 95%;
-  box-shadow: 0 0 20px rgba(255,0,0,0.4);
-  position: relative;
-  animation: fadeIn 0.3s ease-in-out;
-}
-
-.popup-left {
-  padding: 25px;
-  flex: 1;
-  z-index: 2;
-  position: relative;
-}
-
-/* phần chứa ảnh cầu thủ */
-.popup-right {
-  width: 45%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent; /* bỏ nền trắng */
-  overflow: visible;
-}
-
-/* ảnh cầu thủ nổi lên trên nền */
-.popup-right img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  position: relative;
-  z-index: 3;
-  filter: drop-shadow(0 0 15px rgba(0,0,0,0.6));
-}
+   }
 
 </style>
 
