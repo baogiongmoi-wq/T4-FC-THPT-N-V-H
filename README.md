@@ -668,7 +668,7 @@ const players = {
   "Triều Liều": { name: "Ngô Minh Triều", dob: "06/08/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1Cechmozsm/", img: "trieu.jpg", height: "174cm", weight: "60kg", position: "CDM124" },
   "Hào Milk": { name: "Châu Phú Hào", dob: "03/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1ASN3rAcEf/", img: "hao.jpg", height: "169cm", weight: "56kg", position: "LW123" },
   "Qui Musiala": { name: "Nguyễn Văn Vũ Qui", dob: "14/03/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1CPhTw3kfe/", img: "vuqui.png", height: "172cm", weight: "59kg", position: "CAM121" },
-  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "hien", height: "176cm", weight: "63kg", position: "CF126" },
+  "Hiền Gullit": { name: "Dương Văn Hiền", dob: "09/01/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1D94pHWmm8/", img: "hien.jpg", height: "176cm", weight: "63kg", position: "CF126" },
   "Toàn Rivaldo": { name: "Nguyễn Phúc Toàn", dob: "04/11/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1BwLzBmZMp/", img: "toan.jpg", height: "171cm", weight: "59kg", position: "LW122" },
   "Khoa Kroos": { name: "Trần Văn Anh Khoa", dob: "18/04/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1HDTvs2Rem/", img: "khoa.jpg", height: "173cm", weight: "61kg", position: "CM122" },
   "Lamine GiaHuy": { name: "Trần Gia Huy", dob: "19/07/2008", place: "Trà Vinh", fb: "https://www.facebook.com/share/1DbjL3D2m9/", img: "huy.jpg", height: "168cm", weight: "55kg", position: "RW122" },
