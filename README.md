@@ -178,7 +178,7 @@
 </head>
 <body>
     <header>
-        <img src="logoT4FC2.0.jpg" alt="Logo T4-FC">
+       <img src="logoT4FC2.0.jpg" alt="Logo T4-FC" style="width:180px;">
         <h1>T4-FC | THPT Nguyễn Văn Hai</h1>
     </header>
     <!-- Thanh mục lục (Menu điều hướng) -->
