@@ -178,7 +178,7 @@
 </head>
 <body>
     <header>
-       <img src="logoT4FC2.0.jpg" alt="Logo T4-FC" style="width:180px;">
+       <img src="logoT4FC3.0.jpg" alt="Logo T4-FC" style="width:180px;">
         <h1>T4-FC | THPT Nguyễn Văn Hai</h1>
     </header>
     <!-- Thanh mục lục (Menu điều hướng) -->
@@ -322,6 +322,10 @@ html {
             </div>
             <div>
                 <img src="z6675838432936_81ae87965a74c971cca2df0014a03a89.jpg" alt="Áo thi đấu T4-FC">
+                <p>Áo thi đấu</p>
+            </div>
+            <div>
+                <img src="aodaut4fc3.jpg" alt="Áo thi đấu T4-FC">
                 <p>Áo thi đấu</p>
             </div>
         </div>
