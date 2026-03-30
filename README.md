@@ -174,6 +174,27 @@
                 font-size: 1em;
             }
         }
+        #gallery {
+  padding: 30px;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
     </style>
 </head>
 <body>
@@ -329,6 +350,14 @@ html {
                 <p>Áo thi đấu</p>
             </div>
         </div>
+        <section id="gallery">
+  <h2>📸 Khoảnh khắc T4-FC</h2>
+
+  <div class="gallery">
+    <img src="doi.jpg">
+    <img src="đội.jpg">
+  </div>
+</section>
 <section id="cauthu">
         <h2 style="margin-top: 40px;">👥 Danh sách cầu thủ</h2>
     <table>
