@@ -351,7 +351,7 @@ html {
             </div>
         </div>
         <section id="gallery">
-  <h2>📸 Khoảnh khắc T4-FC</h2>
+  <h2>📸T4-FC</h2>
 
   <div class="gallery">
     <img src="doi.jpg">
