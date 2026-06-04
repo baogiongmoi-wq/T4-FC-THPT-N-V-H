@@ -392,6 +392,8 @@ Dù giờ đây đã bước vào năm cuối cấp với nhiều áp lực họ
       <img src="chungket.jpg">
       <img src="vodich.jpg">
       <img src="nangcup.jpg">
+         <img src="ab.jpg">
+         <img src="a.jpg">
   </div>
 </section>
 <section id="cauthu">
