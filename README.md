@@ -377,8 +377,7 @@ Dù giờ đây đã bước vào năm cuối cấp với nhiều áp lực họ
       <img src="doi3.jpg">
       <img src="chungket.jpg">
       <img src="vodich.jpg">
-      
-      
+      <img src="nangcup.jpg">
   </div>
 </section>
 <section id="cauthu">
