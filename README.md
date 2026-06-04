@@ -317,9 +317,10 @@ Tiếp nối khí thế đó, vào 14 giờ 40 phút ngày 2/4, T4-FC bước v�
 Sau ba chiến thắng liên tiếp, T4-FC hiên ngang tiến vào trận chung kết diễn ra lúc 15 giờ 40 phút ngày 5/4, nơi họ phải đối đầu với đối thủ nhiều duyên nợ là 12A3. Trận đấu diễn ra vô cùng căng thẳng và hấp dẫn. Hai đội cống hiến cho khán giả những pha bóng đẹp mắt, những tình huống tranh chấp quyết liệt nhưng đầy tinh thần thể thao. Sau 40 phút thi đấu chính thức, tỉ số vẫn là 1-1, buộc hai đội phải bước vào loạt sút luân lưu cân não.
  </p>
  <p>
-Sau 40 phút thi đấu chính thức, hai đội hòa nhau với tỉ số 1-1 và buộc phải bước vào loạt sút luân lưu đầy căng thẳng. Từng cú đá đều diễn ra trong sự hồi hộp của các cầu thủ trên sân và tiếng cổ vũ không ngớt từ khán đài. Hai đội liên tục thực hiện thành công những lượt sút của mình, khiến cuộc đấu trí trên chấm 11 mét trở nên nghẹt thở hơn bao giờ hết.
+ Từng cú đá đều diễn ra trong sự hồi hộp của các cầu thủ trên sân và sự yên tĩnh từ khán giả. Hai đội liên tục thực hiện thành công những lượt sút của mình, tuy nhiên 12A3 đã để mất hai quả và cách 12T4 một quả, khiến cuộc đấu trí trên chấm 11 mét trở nên nghẹt thở hơn bao giờ hết.
  </p>
-Đến lượt sút quyết định, đội trưởng của 12A3 bước lên với trọng trách níu giữ hy vọng cho đội nhà. Tuy nhiên, trước áp lực cực lớn của trận chung kết, cú sút ấy đã không thể chuyển hóa thành bàn thắng. Ngay khoảnh khắc bóng đi không như mong đợi, các cầu thủ T4-FC vỡ òa trong niềm hạnh phúc. Tiếng còi mãn cuộc vang lên cũng là lúc T4-FC chính thức trở thành nhà vô địch, khép lại hành trình đầy nỗ lực bằng chiếc cúp danh giá trong sự reo hò và chúc mừng của thầy cô, bạn bè cùng các cổ động viên.
+  <p>
+Đến lượt sút quyết định, đội trưởng của 12A3 bước lên với trọng trách níu giữ hy vọng cho đội nhà. Tuy nhiên, trước áp lực cực lớn của trận chung kết, cú sút ấy đã không thể chuyển hóa thành bàn thắng. Ngay khoảnh khắc bóng đi ra ngoài khung thành, các cầu thủ T4-FC vỡ òa trong niềm hạnh phúc. Tiếng còi mãn cuộc vang lên cũng là lúc T4-FC chính thức trở thành nhà vô địch, khép lại hành trình đầy nỗ lực bằng chiếc cúp danh giá trong sự reo hò và chúc mừng của thầy cô, bạn bè cùng các cổ động viên.
  </p>
  <p>
 Chức vô địch ấy không chỉ là phần thưởng cho những chiến thắng trên sân cỏ, mà còn là minh chứng cho tinh thần đoàn kết, sự cố gắng và niềm tin mà tập thể 12T4 đã cùng nhau xây dựng suốt quãng thời gian qua.
