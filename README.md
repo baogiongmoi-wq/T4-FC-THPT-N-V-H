@@ -296,9 +296,27 @@ html {
   </p>
 
   <p>
-    Thành quả của những tháng ngày khổ luyện chính là việc <strong>T4-FC</strong> dần đánh bại những đối thủ mạnh trong trường, khẳng định vị thế của mình như một đội bóng đáng gờm. 
-    Dù hiện tại, khi đã bước vào năm cuối cấp, áp lực học tập ngày một lớn, phong độ đôi lúc sa sút – nhưng ngọn lửa đam mê sân cỏ trong tim từng thành viên vẫn luôn cháy rực. 
-    T4-FC không chỉ là một đội bóng, mà còn là một gia đình, nơi tình bạn, nhiệt huyết và khát vọng chiến thắng luôn song hành cùng năm tháng học trò.
+    Thành quả của những tháng ngày khổ luyện chính là việc <strong>T4-FC</strong> dần đánh bại những đối thủ mạnh trong trường, khẳng định vị thế của mình như một đội bóng đáng gờm. Không chỉ sở hữu những cầu thủ giàu nhiệt huyết, đội còn nổi bật bởi tinh thần đoàn kết, ý chí quyết tâm và khát vọng chinh phục mọi thử thách.
+
+Mùa giải bóng đá chào mừng ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh đã trở thành dấu mốc đáng nhớ trong hành trình của T4-FC. Đó là hành trình của những nỗ lực không ngừng nghỉ, của những giọt mồ hôi rơi trên sân cỏ và cả những khoảnh khắc vỡ òa trong niềm vui chiến thắng.
+
+Hành trình đến ngôi vô địch bắt đầu vào lúc 14 giờ 40 phút ngày 29/3, khi T4-FC đối đầu với lớp 11T2. Bằng lối chơi tấn công đẹp mắt và đầy hiệu quả, đội đã giành chiến thắng thuyết phục với tỉ số 6-1, mở màn hoàn hảo cho chiến dịch chinh phục chiếc cúp vàng.
+
+Tiếp nối khí thế đó, vào 14 giờ 40 phút ngày 2/4, T4-FC bước vào trận đấu với 10T5. Một lần nữa, các cầu thủ đã thể hiện sự vượt trội và giành chiến thắng với tỉ số 6-1, khẳng định sức mạnh của một ứng cử viên hàng đầu cho chức vô địch.
+
+Đến 14 giờ ngày 4/4, T4-FC gặp 10A1. Đây là trận đấu chứng kiến màn trình diễn bùng nổ của toàn đội khi liên tiếp tạo ra những pha phối hợp đẹp mắt và khép lại trận đấu bằng chiến thắng đậm đà 15-0, ghi dấu một trong những trận thắng ấn tượng nhất của giải đấu.
+
+Sau ba chiến thắng liên tiếp, T4-FC hiên ngang tiến vào trận chung kết diễn ra lúc 15 giờ 40 phút ngày 5/4, nơi họ phải đối đầu với đối thủ nhiều duyên nợ là 12A3. Trận đấu diễn ra vô cùng căng thẳng và hấp dẫn. Hai đội cống hiến cho khán giả những pha bóng đẹp mắt, những tình huống tranh chấp quyết liệt nhưng đầy tinh thần thể thao. Sau 40 phút thi đấu chính thức, tỉ số vẫn là 1-1, buộc hai đội phải bước vào loạt sút luân lưu cân não.
+
+Sau 40 phút thi đấu chính thức, hai đội hòa nhau với tỉ số 1-1 và buộc phải bước vào loạt sút luân lưu đầy căng thẳng. Từng cú đá đều diễn ra trong sự hồi hộp của các cầu thủ trên sân và tiếng cổ vũ không ngớt từ khán đài. Hai đội liên tục thực hiện thành công những lượt sút của mình, khiến cuộc đấu trí trên chấm 11 mét trở nên nghẹt thở hơn bao giờ hết.
+
+Đến lượt sút quyết định, đội trưởng của 12A3 bước lên với trọng trách níu giữ hy vọng cho đội nhà. Tuy nhiên, trước áp lực cực lớn của trận chung kết, cú sút ấy đã không thể chuyển hóa thành bàn thắng. Ngay khoảnh khắc bóng đi không như mong đợi, các cầu thủ T4-FC vỡ òa trong niềm hạnh phúc. Tiếng còi mãn cuộc vang lên cũng là lúc T4-FC chính thức trở thành nhà vô địch, khép lại hành trình đầy nỗ lực bằng chiếc cúp danh giá trong sự reo hò và chúc mừng của thầy cô, bạn bè cùng các cổ động viên.
+
+Chức vô địch ấy không chỉ là phần thưởng cho những chiến thắng trên sân cỏ, mà còn là minh chứng cho tinh thần đoàn kết, sự cố gắng và niềm tin mà tập thể 12T4 đã cùng nhau xây dựng suốt quãng thời gian qua.
+
+Dù giờ đây đã bước vào năm cuối cấp với nhiều áp lực học tập và những ngã rẽ tương lai đang chờ phía trước, ngọn lửa đam mê bóng đá trong trái tim mỗi thành viên vẫn luôn cháy bỏng. T4-FC không đơn thuần là một đội bóng, mà còn là một gia đình – nơi lưu giữ những kỷ niệm đẹp nhất của tuổi học trò, nơi tình bạn, nhiệt huyết và khát vọng chiến thắng sẽ mãi đồng hành cùng mỗi thành viên trên chặng đường phía trước.
+
+“Có thể một ngày nào đó chúng ta sẽ rời xa mái trường này, nhưng những trận đấu, những tiếng hò reo trên khán đài và khoảnh khắc cùng nhau nâng cao chiếc cúp vô địch sẽ mãi là ký ức không thể nào quên trong thanh xuân của mỗi người.”
   </p>
 </section>
 
@@ -356,6 +374,11 @@ html {
   <div class="gallery">
     <img src="doi.jpg">
     <img src="đội.jpg">
+      <img src="doi3.jpg">
+      <img src="chungket.jpg">
+      <img src="vodich.jpg">
+      
+      
   </div>
 </section>
 <section id="cauthu">
